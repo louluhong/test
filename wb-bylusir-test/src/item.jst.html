@@ -1,0 +1,11 @@
+<% $.each(items,function(index,item) { %>
+<li>
+    <a href="#" class="cloth-pic"><img data-src="<%=item.item_pic%>-353-354.jpg" alt="" /></a>
+    <p class="cloth-name"><a href=""><%=item.item_title%></a></p>
+    <p class="cloth-price">
+        <span class="latest-price"><em>￥</em><%=item.item_current_price %></span>
+        <span class="old-price">￥<%=item.item_price%></span>
+    </p>
+    <a href="#" class="buy-btn">立即抢购</a>
+</li>
+<% });%>

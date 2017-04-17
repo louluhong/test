@@ -1,0 +1,104 @@
+﻿.wb-bytjb-allotternew-m .module-wrap {
+  font-size: 0.32rem;
+  font-family: "Helvetica Neue", "Hiragino Sans GB W3", "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+  padding-bottom: 1px;
+}
+.wb-bytjb-allotternew-m .module-wrap img {
+  display: block;
+  border: 0;
+  width: 100%;
+}
+.wb-bytjb-allotternew-m .module-wrap a {
+  display: block;
+  text-decoration: none;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+.wb-bytjb-allotternew-m .module-wrap a:hover {
+  text-decoration: none;
+}
+.wb-bytjb-allotternew-m .module-wrap .clearfix {
+  height: auto;
+  overflow: hidden;
+}
+.wb-bytjb-allotternew-m .module-wrap .con {
+  margin: 0 0.26666667rem;
+  padding: 0.05333333rem 0 0 0.10666667rem;
+  box-sizing: border-box;
+}
+.wb-bytjb-allotternew-m .module-wrap .prolist {
+  float: left;
+  width: 4.64rem;
+  box-sizing: border-box;
+  height: 2.89333333rem;
+}
+.wb-bytjb-allotternew-m .module-wrap .prolist img {
+  float: left;
+  width: 2rem;
+  margin-top: 0.4rem;
+}
+.wb-bytjb-allotternew-m .module-wrap .prolist .des {
+  float: left;
+  width: 2.46666667rem;
+  padding-top: 0.24rem;
+}
+.wb-bytjb-allotternew-m .module-wrap .prolist .des .item_title {
+  line-height: 0.34666667rem;
+  color: #004750;
+  font-size: 0.26666667rem;
+  height: 1.04rem;
+  overflow: hidden;
+}
+.wb-bytjb-allotternew-m .module-wrap .prolist .des .item_price {
+  line-height: 0.53333333rem;
+  color: #004750;
+  font-size: 0.26666667rem;
+  height: 0.6rem;
+}
+.wb-bytjb-allotternew-m .module-wrap .prolist .des .item_price b {
+  color: #ff2735;
+  font-weight: normal;
+}
+.wb-bytjb-allotternew-m .module-wrap .prolist .des .buy {
+  width: 2.37333333rem;
+  height: 0.64rem;
+  color: #ffffff;
+  font-size: 0.32rem;
+  text-align: center;
+  line-height: 0.64rem;
+  border-radius: 0.06666667rem;
+}
+.wb-bytjb-allotternew-m .module-wrap .zcprolist .des .buy {
+  background: #00a8c5;
+}
+.wb-bytjb-allotternew-m .module-wrap .msprolist .des .item_title {
+  height: 0.69333333rem;
+}
+.wb-bytjb-allotternew-m .module-wrap .msprolist .des .item_price {
+  color: #ff3044;
+  margin-bottom: 0.34666667rem;
+}
+.wb-bytjb-allotternew-m .module-wrap .msprolist .des .buy {
+  background: #fc5e68;
+}
+.wb-bytjb-allotternew-m .module-wrap .msprolist .des .buy:after {
+  content: "立即秒杀";
+}
+.wb-bytjb-allotternew-m .module-wrap .msprolist .item-before .des .buy {
+  background: #febd2d;
+}
+.wb-bytjb-allotternew-m .module-wrap .msprolist .item-before .des .buy:after {
+  content: "即将开始";
+}
+.wb-bytjb-allotternew-m .module-wrap .msprolist .item-after .des .buy {
+  background: #fa606c;
+  font-size: 0.24rem;
+}
+.wb-bytjb-allotternew-m .module-wrap .msprolist .item-after .des .buy:after {
+  content: "";
+}
+.wb-bytjb-allotternew-m .module-wrap .msprolist .item-end .des .buy {
+  background: #a2a2a2;
+}
+.wb-bytjb-allotternew-m .module-wrap .msprolist .item-end .des .buy:after {
+  content: "秒杀结束";
+}

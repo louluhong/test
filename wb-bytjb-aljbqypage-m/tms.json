@@ -1,0 +1,27 @@
+{
+  "name":"wb-bytjb-aljbqypage-m",
+  "version":"0.0.1",
+  "author": "{娄露红}({WB085725})",
+  "type":"module",
+  "group":"tb",
+  "description": "淘金币 金币权益 H5",
+  "template": {
+    "type": "xtemplate",
+    "ext": ".xtpl",
+    "version": "~4.0.5"
+  },
+  "assets":{
+    "kimi": "0.0.233",
+    "tb-init-kimi": "*",
+	  "m-base": "*",
+	  "hairlines": "*"
+  },
+  "widths": [
+    "100%"
+  ],
+  "schema": {
+    "id": "",
+    "version": ""
+  },
+  "screenshot":""
+}

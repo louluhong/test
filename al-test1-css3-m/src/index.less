@@ -1,0 +1,81 @@
+@import "../mixins";
+@bili:75rem;
+@font-face {
+  font-family: 'iconfont';
+  src: url('//at.alicdn.com/t/font_1461571851_02302.eot'); /* IE9*/
+  src: url('//at.alicdn.com/t/font_1461571851_02302.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('//at.alicdn.com/t/font_1461571851_02302.woff') format('woff'), /* chrome、firefox */
+  url('//at.alicdn.com/t/font_1461571851_02302.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+  url('//at.alicdn.com/t/font_1461571851_02302.svg#iconfont') format('svg'); /* iOS 4.1- */
+}
+.iconfont{
+	font-family: 'iconfont';
+}
+.al-test1-css3-m{
+  .module-wrap {
+  	width:100%;
+	font-family: tahoma,arial, 'Hiragino Sans GB', 'Microsoft Yahei', sans-serif;
+	overflow: hidden;
+	margin: 0 auto;
+	.clear{ zoom:1;}
+	.clear:after{ content:'.'; display:block; clear:both; height:0; visibility:hidden;}
+	img{ display:block; border:0; margin: 0 auto;width: 100%;}
+	a{text-decoration:none; outline:none;}
+	a:hover{ text-decoration:none;}
+	.by_heat{
+		background: #790e20;
+		width: 750/@bili;
+		position: fixed;
+		height: 100%;
+		.heat_bg{
+			width:160px;height:200px;position:relative
+			
+		}
+		.heat_bg:before{
+			content:" ";
+			border: 0 solid transparent;
+			-moz-border-radius:100px;
+			-webkit-border-radius:100px;
+			border-radius:100px 100px 0 0;
+			width:162/@bili;
+			height:315/@bili;
+			background:#520704;
+			-moz-transform: rotate(-45deg);
+			-ms-transform: rotate(-45deg);
+			-o-transform: rotate(-45deg);
+			-webkit-transform: rotate(-45deg);
+			position:absolute;
+			left: 50%;
+			margin-left:1rem;
+			top: 50%;
+			margin-top:3rem;
+		}
+		.heat_bg:after{
+			content:" ";
+			border: 0 solid transparent; 
+			-moz-border-radius:100px;
+			-webkit-border-radius:100px;
+			border-radius:100px 100px 0 0;
+			width:162/@bili;
+			height:315/@bili;
+			background:#520704;
+			-moz-transform: rotate(45deg);
+			-ms-transform: rotate(45deg);
+			-o-transform: rotate(45deg);
+			-webkit-transform: rotate(45deg);
+			position:absolute;
+			left: 50%;
+			margin-left:2.4rem;
+			top: 50%;
+			margin-top:3rem;
+		}
+		.fly_heat{
+			color: #CE1343;
+			font-size: 169px;
+			position: absolute;
+			left: 90px;
+			top: 226px;
+		}
+	}
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "name": "wb-bytjb-aldtcj",
+  "version": "0.0.1",
+  "author": "{娄露红}({WB085725})",
+  "type": "module",
+  "group": "tb",
+  "description": "淘金币 答题抽奖 PC",
+  "template": {
+    "type": "xtemplate",
+    "ext": ".xtpl",
+    "version": "~4.0.5"
+  },
+  "assets": {
+    "kissy": "^6.2.0",
+    "tb-global": "*",
+    "tb-init": "*"
+  },
+  "widths": [
+    "100%"
+  ],
+  "schema": {
+    "id": 35413,
+    "version": "",
+    "url": "http://dip.alibaba-inc.com/pages/schemas/35413"
+  },
+  "screenshot": ""
+}

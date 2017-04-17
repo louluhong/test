@@ -1,0 +1,108 @@
+<div class="module-wrap J_tb_lazyload">
+	<textarea class="J_conf dataText" style="display:none;">{{$env.JSON.stringify(this)}}</textarea>
+	<div class="by_con" style="background: {{moduleinfo.mod_bgcolor}} ">
+		<div class="by_w990">
+			<div class="by_tm {{#if(moduleinfo.da_num==='3')}}by_three{{/if}} {{#if(moduleinfo.da_num==='2' && moduleinfo.pd_more===false||moduleinfo.pd_more==='false'||moduleinfo.pd_more==='否')}}by_two{{/if}} {{#if(moduleinfo.da_num==='4')}}by_three{{/if}}"style="background:{{moduleinfo.dt_bgcolor}};">
+				<img src="{{moduleinfo.dt_icon}}" alt="" class="tm_icon" style="bottom: 2px;left: 5px;">
+				<span class="tm_title" style="color:{{moduleinfo.dt_color}};">{{moduleinfo.title}}</span>
+				<ul class="da_ul" data-acid="{{moduleinfo.myacid}}" data-asac="{{moduleinfo.myasac}}">
+					{{#each(items)}}
+					<li class="da_li" style="background: {{moduleinfo.dt_btn}};{{#if(moduleinfo.pd_more===true||moduleinfo.pd_more==='true'||moduleinfo.pd_more==='是')}}border:2px solid {{moduleinfo.more_bg}};{{/if}}">
+						<a href="javascript:void(0);" target="_self" style="color:{{moduleinfo.da_color}};" data-id="{{moduleinfo.dt_id}}" class="ans-btn {{#if(yes_ask===true||yes_ask==='true'||yes_ask==='是')}}ask-right{{/if}} {{#if(moduleinfo.pd_hdtime===true||moduleinfo.pd_hdtime==='true')}}over{{/if}}">{{da}}</a>
+					</li>
+					{{/each}}
+				</ul>
+				<a href="{{moduleinfo.more_link}}" class="by_more iconfont" target="_self" style="background:{{moduleinfo.more_bg}};color:{{moduleinfo.dt_color}};"><b>查看更多</b>{{#if(moduleinfo.pd_more===true||moduleinfo.pd_more==='true'||moduleinfo.pd_more==='是')}}<i>&#xe600;</i>{{/if}}</a>
+			</div>
+		</div>
+		<div class="toast_tk"></div> 
+	</div>
+	<script type="data/tmpl" class="tmpl_box2">
+		<img src="//img.alicdn.com/tps/TB1LoAtKpXXXXblXFXXXXXXXXXX-144-141.png" class="pic">
+		<div class="tk_con">
+			<p class="bt1">金币不足</p>
+			<p class="bt2">去赚金币</p>
+			<a href="javascript:void(0);" class="toast_btn confirm"><img src="//img.alicdn.com/tps/TB1E93yKpXXXXcOXpXXXXXXXXXX-32-29.jpg" class="tb-icon"><span class="text">确认</span></a>
+		</div>
+	</script>
+	<script type="data/tmpl" class="tmpl_box3">
+		<img src="//img.alicdn.com/tps/TB1LoAtKpXXXXblXFXXXXXXXXXX-144-141.png" class="pic">
+		<div class="tk_con">
+			<p class="bt1">你已经答过了哦</p>
+			<a href="javascript:void(0);" class="toast_btn confirm"><img src="//img.alicdn.com/tps/TB1E93yKpXXXXcOXpXXXXXXXXXX-32-29.jpg" class="tb-icon"><span class="text">确认</span></a>
+		</div>
+	</script>
+	<script type="data/tmpl" class="tmpl_box5">
+		<img src="//img.alicdn.com/tps/TB1LoAtKpXXXXblXFXXXXXXXXXX-144-141.png" class="pic">
+		<div class="tk_con">
+			<p class="bt1">愿赌服输</p>
+			<a href="javascript:void(0);" class="toast_btn confirm"><img src="//img.alicdn.com/tps/TB1E93yKpXXXXcOXpXXXXXXXXXX-32-29.jpg" class="tb-icon"><span class="text">确认</span></a>
+		</div>
+	</script>
+	<script type="data/tmpl" class="tmpl_box4">
+		<img src="//img.alicdn.com/tps/TB1LoAtKpXXXXblXFXXXXXXXXXX-144-141.png" class="pic">
+		<div class="tk_con">
+			<p class="bt1">答对了！</p>
+			<p class="bt2">送你20个金币</p>
+			<a href="javascript:void(0);" class="toast_btn confirm"><img src="//img.alicdn.com/tps/TB1E93yKpXXXXcOXpXXXXXXXXXX-32-29.jpg" class="tb-icon"><span class="text">确定</span></a>
+		</div>
+	</script>
+	<script type="data/tmpl" class="dh_box2">
+		<img src="//img.alicdn.com/tps/TB1LoAtKpXXXXblXFXXXXXXXXXX-144-141.png" class="pic">
+		<div class="tk_con">
+			<p class="bt1">花10金币答题</p>
+			<p class="bt2">买定离手</p>
+			<a href="javascript:void(0);" class="close confirm"><span class="text">取消</span></a>
+			<span class="sure"><img src="//img.alicdn.com/tps/TB1E93yKpXXXXcOXpXXXXXXXXXX-32-29.jpg" class="tb-icon"><span class="text">确认</span></span>
+		</div>
+	</script>
+	<script type="data/tmpl" class="dh_box3">
+		<img src="//img.alicdn.com/tps/TB1LoAtKpXXXXblXFXXXXXXXXXX-144-141.png" class="pic">
+		<div class="tk_con">
+			<p class="bt1">活动已结束</p>
+			<a href="javascript:void(0);" class="toast_btn confirm"><img src="//img.alicdn.com/tps/TB1E93yKpXXXXcOXpXXXXXXXXXX-32-29.jpg" class="tb-icon"><span class="text">确认</span></a>
+		</div>
+	</script>
+	<script type="data/tmpl" class="dh_box">
+		<img src="//img.alicdn.com/tps/TB1LoAtKpXXXXblXFXXXXXXXXXX-144-141.png" class="pic">
+		<div class="tk_con">
+			<p class="bt1"></p>
+			<p class="bt2"></p>
+			<a href="javascript:void(0);" class="toast_btn confirm"><img src="//img.alicdn.com/tps/TB1E93yKpXXXXcOXpXXXXXXXXXX-32-29.jpg" class="tb-icon"><span class="text">确认</span></a>
+		</div>
+	</script>
+</div>
+<!--   UA_Opt初始化配置(必须在uab.js加载之前)、uab.js引入必须在页面的foot段加载 -->
+<script type="text/javascript">
+    if(!window.UA_Opt){
+            var UA_Opt = new Object;
+            UA_Opt.SendMethod = 9; // 9保存到指定表单和指定js变量，1只保存到表单，8只保存到js变量中
+            UA_Opt.FormId = "login_submit_form"; //SendMethod=8时（保存至js变量中）不用指定；保存ua到表单时，必须指定
+            UA_Opt.ExTarget = ['password']; //可选，不需要记录事件的元素id
+            UA_Opt.LogVal = "ua"; //SendMethod=1时（保存至表单中）不用指定；保存ua到变量时，必须指定;在浏览器console里面可查询
+            window[UA_Opt.LogVal] = ""; //变量初始化内容清空
+            UA_Opt.Token = new Date().getTime() + ":" + Math.random();
+            //(>_<)对发送数据长度有限制的系统，注意下面的配置，
+            //一般最大采集个数设置为50（??调用notify接口），
+            //对长度有特殊要求的可设置为10（??GET方式提交）
+            UA_Opt.MaxMCLog = 50; //鼠标事件最大获取个数，可选，默认150
+            UA_Opt.MaxKSLog = 50; //键盘事件最大获取个数，可选，默认150
+            UA_Opt.MaxMPLog = 50; //鼠标移动事件最大获取个数，可选，默认150
+            UA_Opt.Sync = true;  //表示用于同步加载
+            //UA_Opt.MaxGPLog = 5; //默认选择5，ua中记录陀螺仪事件的最??大个数。 
+            UA_Opt.MaxTCLog = 50; //默认选择150，ua中记录WAP页面touch事件的最??大个数。
+            UA_Opt.MaxFocusLog = 50;//默认选择150，ua中记录焦点切换事件的最??大个数。
+            //UA_Opt.isSendError = 1; // 报告执??异常，默认值为1；??线应??配置值0
+            UA_Opt.Flag = 1670350; //PC，无线通用。需要捕获陀螺仪事件用1932494
+    }
+ 
+            function getUA () { 
+                //调用风控接口，前一刻，再去取值
+                //（collina值会因为用户在页面上的动作不断的增加，等到用户完成业务动作，调用风控接口时，再取出collina值发送）
+        var tmp_ua = window[UA_Opt.LogVal];
+            UA_Opt.Token= new Date().getTime()+":"+Math.random(); 
+            UA_Opt.reload && UA_Opt.reload(); 
+        return tmp_ua;
+        }
+</script>
+<script src="https://acjs.aliyun.com/js/uab.js"></script>

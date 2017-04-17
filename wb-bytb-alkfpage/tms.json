@@ -1,0 +1,27 @@
+{
+  "name": "wb-bytb-alkfpage",
+  "version": "0.0.1",
+  "author": "{吴沁}({WB114845})",
+  "type": "module",
+  "group": "tb",
+  "description": "客服绩效软件",
+  "template": {
+    "type": "xtemplate",
+    "ext": ".xtpl",
+    "version": "~4.0.5"
+  },
+  "assets": {
+    "kissy": "^6.2.0",
+    "tb-global": "*",
+    "tb-init": "*"
+  },
+  "widths": [
+    "100%"
+  ],
+  "schema": {
+    "id": 38840,
+    "version": "",
+    "url": "http://dip.alibaba-inc.com/pages/schemas/38840"
+  },
+  "screenshot": "https://gw.alicdn.com/tps/TB18HZ1MVXXXXaOapXXXXXXXXXX-481-962.jpg"
+}

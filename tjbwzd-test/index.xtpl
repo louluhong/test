@@ -1,0 +1,71 @@
+<div class="module-wrap J_tb_lazyload">
+	<textarea class="J_conf dataText" style="display:none;">{{$env.JSON.stringify(this)}}</textarea>
+	<div class="al_page" style="">
+		<div class="by_w990">
+			<ul class="tab_ul clear">
+				<li class="tab_li" style="display: none;">2月10日</li>
+				<li class="tab_li" style="display: none;">2月10日</li>
+				<li class="tab_li" style="display: none;">2月10日</li>
+			</ul>
+			<div class="tab_con"> 
+				<span class="tab_line"></span>
+				<span class="tab_line1"></span>
+				<ul class="tabtime_ul clear">
+					<li class="tabtime_li" >
+						<span class="tab_time">10:00</span>
+					</li>
+					<li class="tabtime_li" >
+						<span class="tab_time">14:00</span>
+					</li>
+					<li class="tabtime_li" >
+						<span class="tab_time">16:00</span>
+					</li>
+					<li class="tabtime_li" style="margin-right: 0">
+						<span class="tab_time">20:00</span>
+					</li>
+				</ul>
+				<ul class="tabcon_ul clear">
+					<!-- <li class="tabcon_li" style="margin-right: 8px;">
+						<a href="##" class="sp_link">
+							<img src="https://gw.alicdn.com/tps/TB1pCusLpXXXXaCXVXXXXXXXXXX-200-150.jpg" class="sp_img J_LazyLoad">
+				        		<img src="https://gw.alicdn.com/tps/TB1qw1fLFXXXXbTaXXXXXXXXXXX-77-77.png" class="sp_ydw">
+							<p class="sp_title" title="">我我我我我我我我 我我我 我我</p>
+							<p class="pt_price" style="display: none;"><em>促销价:</em>元<br><i style="padding-left: 0">金币已抵扣<b></b>元淘金币专享底价</i></p>
+							<p class="wzd_price">
+								<em>兑换价:</em>元<i>+淘金币</i>
+							</p><span class="sp_stock">仅剩123件</span>
+							<span class="btn_before" style="display: none;">即将开始</span>
+							<span class="btn_start">立即抢购立即兑换</span>
+						</a>
+					</li>
+					<li class="tabcon_li" style="margin-right: 7px;">
+						<a href="##" class="sp_link">
+							<img src="https://gw.alicdn.com/tps/TB1pCusLpXXXXaCXVXXXXXXXXXX-200-150.jpg" class="sp_img J_LazyLoad">
+				        		<img src="https://gw.alicdn.com/tps/TB1qw1fLFXXXXbTaXXXXXXXXXXX-77-77.png" class="sp_ydw">
+							<p class="sp_title" title="">我我我我我我我我 我我我 我我</p>
+							<p class="pt_price" style="display: none;"><em>促销价:</em>元<br><i style="padding-left: 0">金币已抵扣<b></b>元淘金币专享底价</i></p>
+							<p class="wzd_price">
+								<em>兑换价:</em>元<i>+淘金币</i>
+							</p><span class="sp_stock">仅剩123件</span>
+							<span class="btn_before" style="display: none;">即将开始</span>
+							<span class="btn_start">立即抢购立即兑换</span>
+						</a>
+					</li>
+					<li class="tabcon_li" style="margin-right:0px;">
+						<a href="##" class="sp_link">
+							<img src="https://gw.alicdn.com/tps/TB1pCusLpXXXXaCXVXXXXXXXXXX-200-150.jpg" class="sp_img J_LazyLoad">
+				        		<img src="https://gw.alicdn.com/tps/TB1qw1fLFXXXXbTaXXXXXXXXXXX-77-77.png" class="sp_ydw">
+							<p class="sp_title" title="">我我我我我我我我 我我我 我我</p>
+							<p class="pt_price" style="display: none;"><em>促销价:</em>元<br><i style="padding-left: 0">金币已抵扣<b></b>元淘金币专享底价</i></p>
+							<p class="wzd_price">
+								<em>兑换价:</em>元<i>+淘金币</i>
+							</p><span class="sp_stock">仅剩123件</span>
+							<span class="btn_before" style="display: none;">即将开始</span>
+							<span class="btn_start">立即抢购立即兑换</span>
+						</a>
+					</li> -->
+				</ul>
+			</div>
+		</div>
+	</div>
+</div>

@@ -1,0 +1,11 @@
+{
+    "type":"tms",
+    "builder":"@ali/builder-tms",
+    "author": "{吴沁}({WB114845})",
+    "options": {
+        "packageName": "tb-mod"
+    },
+    "plugins":{
+
+    }
+}

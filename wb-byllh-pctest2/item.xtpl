@@ -1,0 +1,16 @@
+{{@each (item)}}
+	<li class="by_con_li clear" {{#if (xindex%2===1)}} style="margin-right:0;" {{/if}}>
+		<a href="{{item_origin_url}}" target="_blank">
+			<div class="by_sp_l">
+				<img data-ks-lazyload="{{item_pic}}" alt="" class="sp_img" width="290" height="290">
+			</div>
+			<div class="by_sp_r">
+				<span class="sp_title">{{item_title}}</span>
+				<img data-ks-lazyload="http://gtms04.alicdn.com/tps/i4/TB14OKEKXXXXXcyXFXX8DnLHFXX-57-20.png" alt="" class="sp_qg">
+				<span class="new_price">￥{{item_current_price}}</span>
+				<del class="old_price">原价￥{{item_price}}</del>
+				<img data-ks-lazyload="http://gtms04.alicdn.com/tps/i4/TB1QdOFKXXXXXbYXFXX8fSSHFXX-180-40.png" class="item-btn btn-after" alt="">
+			</div>
+		</a>
+	</li>
+{{/each}}

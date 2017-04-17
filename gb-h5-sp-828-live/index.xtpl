@@ -1,0 +1,12 @@
+<div class="module-wrap J_tb_lazyload"
+  data-size="{{moduleinfo.feedSize}}"
+  data-time-zone="{{moduleinfo.timeZone}}"
+  style="
+  {{#if(moduleinfo.styleInfo.paddingTop)}}padding-top:{{moduleinfo.styleInfo.paddingTop}};{{/if}}
+  {{#if(moduleinfo.styleInfo.paddingBottom)}}padding-bottom:{{moduleinfo.styleInfo.paddingBottom}};{{/if}}
+  {{#if(moduleinfo.styleInfo.backgroundColor)}}background-color:{{moduleinfo.styleInfo.backgroundColor}};{{/if}}
+  {{#if(moduleinfo.styleInfo.backgroundImage)}}background-image:url('{{moduleinfo.styleInfo.backgroundImage}}');{{/if}}
+  "
+>
+  <ul class="feed-list"></ul>
+</div>

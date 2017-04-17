@@ -1,0 +1,29 @@
+{
+  "name": "youjia-m-content-syndication",
+  "version": "0.0.1",
+  "author": "文郑",
+  "type": "module",
+  "group": "tb",
+  "description": "极有家卡片内容聚合",
+  "template": {
+    "type": "xtemplate",
+    "ext": ".xtpl",
+    "version": "~4.0.5"
+  },
+  "assets": {
+    "kimi": "0.0.233",
+    "tb-init-kimi": "*",
+    "m-base": "*",
+    "hairlines": "*"
+  },
+  "widths": [
+    "100%"
+  ],
+  "schema": {
+    "id": 23402,
+    "version": "fa6785b96f71e8b57a3c0c1a9dc21d9a0331fbb8",
+    "url": "http://dip.alibaba-inc.com/pages/schemas/23402"
+  },
+  "screenshot": "//img.alicdn.com/tfs/TB1VramMFXXXXX.XXXXXXXXXXXX-249-484.png",
+  "modify_time": "2016-8-31 13:03:41"
+}

@@ -1,0 +1,295 @@
+﻿/**
+ * 图片的垂直居中，注意容器不能设置float，会破坏display的效果，有需要建议在外层增加一层div包裹
+ *
+ * 正常使用，将该方法设置给img的父元素即可:
+ *    div.pic-wrapper
+ *      img
+ * 若元素需要float:
+ *    div.float
+ *      div.pic-wrapper
+ *        img
+ * @param width
+ * @param height
+ */
+/**
+ * 兼容一个参数的写法，长宽相等
+ */
+.wb-alpage-alw .module-wrap {
+  width: 100%;
+  font: 12px/1.5 tahoma, arial, 'Hiragino Sans GB', '\5b8b\4f53', sans-serif;
+  overflow: hidden;
+  margin: 0 auto;
+  min-width: 1190px;
+  position: relative;
+}
+.wb-alpage-alw .module-wrap .clear {
+  zoom: 1;
+}
+.wb-alpage-alw .module-wrap .clear:after {
+  content: '.';
+  display: block;
+  clear: both;
+  height: 0;
+  visibility: hidden;
+}
+.wb-alpage-alw .module-wrap img {
+  display: block;
+  border: 0;
+}
+.wb-alpage-alw .module-wrap a {
+  text-decoration: none;
+  outline: none;
+}
+.wb-alpage-alw .module-wrap a:hover {
+  text-decoration: none;
+}
+.wb-alpage-alw .module-wrap .by_w1190 {
+  width: 1190px;
+  margin: 0 auto;
+}
+.wb-alpage-alw .module-wrap .title_w1190 {
+  width: 1190px;
+  margin: 0 auto;
+  text-align: center;
+}
+.wb-alpage-alw .module-wrap .by_floor2 .floor2_con {
+  background: url('https://gw.alicdn.com/tps/TB1hl7NHVXXXXalaXXXXXXXXXXX-1190-36.jpg') repeat-y center top;
+  padding-bottom: 30px;
+}
+.wb-alpage-alw .module-wrap .by_floor2 .floor2_con .con_ul {
+  width: 1040px;
+  margin: 0 auto;
+}
+.wb-alpage-alw .module-wrap .by_floor2 .floor2_con .con_ul .con_right .con_year {
+  background: url('https://gw.alicdn.com/tps/TB1hrxyJXXXXXcwXXXXXXXXXXXX-8-14.jpg') no-repeat left center;
+  margin: 0 0 0 -7px;
+}
+.wb-alpage-alw .module-wrap .by_floor2 .floor2_con .con_ul .con_right .con_li {
+  text-align: left;
+}
+.wb-alpage-alw .module-wrap .by_floor2 .floor2_con .con_ul .con_right .con_year,
+.wb-alpage-alw .module-wrap .by_floor2 .floor2_con .con_ul .con_right .con_cont {
+  text-align: left;
+}
+.wb-alpage-alw .module-wrap .by_floor2 .floor2_con .con_ul .con_right .con_cont {
+  margin-left: 14px;
+}
+.wb-alpage-alw .module-wrap .by_floor2 .floor2_con .con_ul .con_left .con_year {
+  background: url('https://gw.alicdn.com/tps/TB1hrxyJXXXXXcwXXXXXXXXXXXX-8-14.jpg') no-repeat right center;
+  padding-right: 18px;
+  margin: 0 0 0 -15px;
+}
+.wb-alpage-alw .module-wrap .by_floor2 .floor2_con .con_ul .con_left .con_li {
+  text-align: right;
+}
+.wb-alpage-alw .module-wrap .by_floor2 .floor2_con .con_ul .con_left .con_cont {
+  text-align: left;
+}
+.wb-alpage-alw .module-wrap .by_floor2 .floor2_con .con_ul .con_left .con_cont {
+  margin-right: 18px;
+}
+.wb-alpage-alw .module-wrap .by_floor2 .floor2_con .con_ul .con_li {
+  width: 523px;
+}
+.wb-alpage-alw .module-wrap .by_floor2 .floor2_con .con_ul .con_li .con_year,
+.wb-alpage-alw .module-wrap .by_floor2 .floor2_con .con_ul .con_li .con_cont {
+  width: 500px;
+}
+.wb-alpage-alw .module-wrap .by_floor2 .floor2_con .con_ul .con_li .con_year {
+  display: inline-block;
+  color: #ffda00;
+  font-size: 21px;
+  padding-left: 18px;
+}
+.wb-alpage-alw .module-wrap .by_floor2 .floor2_con .con_ul .con_li .con_cont {
+  display: block;
+  color: #fff;
+  font-size: 18px;
+  margin-top: 10px;
+}
+.wb-alpage-alw .module-wrap .by_floor2 .floor2_btn {
+  width: 240px;
+  height: 56px;
+  margin: 12px auto 0;
+  display: block;
+  padding-bottom: 69px;
+}
+.wb-alpage-alw .module-wrap .by_floor2 .floor2_title {
+  display: inline-block;
+  font-size: 42px;
+  border-bottom: 1px solid #ffda00;
+  color: #ffda00;
+}
+.wb-alpage-alw .module-wrap .by_floor3 {
+  padding-bottom: 100px;
+}
+.wb-alpage-alw .module-wrap .by_floor3 .con_left {
+  float: left;
+}
+.wb-alpage-alw .module-wrap .by_floor3 .con_left .left_title {
+  color: #2369de;
+  font-size: 42px;
+  display: inline-block;
+  border-bottom: 1px solid #2369de;
+  margin: 137px 0 30px;
+}
+.wb-alpage-alw .module-wrap .by_floor3 .con_left .left_con {
+  color: #666;
+  font-size: 18px;
+  width: 424px;
+  display: block;
+}
+.wb-alpage-alw .module-wrap .by_floor3 .con_right {
+  float: left;
+  margin-top: 50px;
+  margin-left: 163px;
+}
+.wb-alpage-alw .module-wrap .by_floor3 .con_right .right_img {
+  margin-left: -100px;
+}
+.wb-alpage-alw .module-wrap .by_floor3 .con_right .right_ul {
+  margin-top: 24px;
+}
+.wb-alpage-alw .module-wrap .by_floor3 .con_right .right_ul img {
+  display: inline-block;
+  position: absolute;
+  top: 12px;
+}
+.wb-alpage-alw .module-wrap .by_floor3 .con_right .right_ul .right_li {
+  position: relative;
+  width: 590px;
+  color: #666;
+  font-size: 18px;
+}
+.wb-alpage-alw .module-wrap .by_floor3 .con_right .right_ul .right_li .li_font {
+  padding-left: 11px;
+  display: block;
+}
+.wb-alpage-alw .module-wrap .by_floor4 {
+  padding-bottom: 110px;
+}
+.wb-alpage-alw .module-wrap .by_floor4 .floor4_top {
+  margin-bottom: 40px;
+}
+.wb-alpage-alw .module-wrap .by_floor4 .floor4_top .floor4_title {
+  font-size: 42px;
+  color: #ffda00;
+  display: inline-block;
+  border-bottom: 1px solid #ffda00;
+  margin-top: 120px;
+  margin-bottom: 30px;
+}
+.wb-alpage-alw .module-wrap .by_floor4 .floor4_top .floor4_con {
+  font-size: 18px;
+  color: #fff;
+  width: 424px;
+  display: block;
+}
+.wb-alpage-alw .module-wrap .by_floor4 .floor4_top .peo_head {
+  width: 270px;
+  height: 270px;
+  border-radius: 50%;
+  margin: -250px 0 0 456px;
+}
+.wb-alpage-alw .module-wrap .by_floor4 .floor4_bottom {
+  background: url('https://gw.alicdn.com/tps/TB176U5JpXXXXc7XFXXXXXXXXXX-1190-14.jpg') repeat-y center top;
+}
+.wb-alpage-alw .module-wrap .by_floor4 .floor4_bottom .floor4_left {
+  width: 200px;
+  margin-left: 203px;
+}
+.wb-alpage-alw .module-wrap .by_floor4 .floor4_bottom .floor4_left .left_name {
+  color: #d9cfcf;
+  font-size: 58px;
+  display: block;
+  text-align: right;
+}
+.wb-alpage-alw .module-wrap .by_floor4 .floor4_bottom .floor4_left .left_pyname {
+  color: #fff;
+  font-size: 26px;
+  display: block;
+  text-align: right;
+}
+.wb-alpage-alw .module-wrap .by_floor4 .floor4_bottom .floor4_left .left_zw {
+  color: #fff;
+  font-size: 16px;
+  display: block;
+  width: 200px;
+  text-align: right;
+}
+.wb-alpage-alw .module-wrap .by_floor4 .floor4_bottom .floor4_right {
+  margin-left: 464px;
+  margin-top: -165px;
+}
+.wb-alpage-alw .module-wrap .by_floor4 .floor4_bottom .floor4_right .right_ul .right_li {
+  width: 726px;
+  margin-bottom: 27px;
+}
+.wb-alpage-alw .module-wrap .by_floor4 .floor4_bottom .floor4_right .right_ul .right_li .right_w {
+  font-size: 21px;
+  color: #ffda00;
+  display: block;
+}
+.wb-alpage-alw .module-wrap .by_floor4 .floor4_bottom .floor4_right .right_ul .right_li .right_d {
+  font-size: 18px;
+  color: #fff;
+}
+.wb-alpage-alw .module-wrap .by_floor5 .floor5_title {
+  font-size: 42px;
+  color: #2369de;
+  display: inline-block;
+  border-bottom: 1px solid #2369de;
+  margin-top: 120px;
+  margin-bottom: 30px;
+}
+.wb-alpage-alw .module-wrap .by_floor5 .floor5_con {
+  padding-bottom: 145px;
+}
+.wb-alpage-alw .module-wrap .by_floor5 .floor5_con .btn_ul .btn_li {
+  width: 1190px;
+  background: #fff;
+  margin-bottom: 2px;
+  position: relative;
+}
+.wb-alpage-alw .module-wrap .by_floor5 .floor5_con .btn_ul .btn_li .by_btn {
+  height: 64px;
+  width: 1170px;
+  background: #8594ab;
+  padding-left: 20px;
+}
+.wb-alpage-alw .module-wrap .by_floor5 .floor5_con .btn_ul .btn_li .btn_name {
+  background: url('https://gw.alicdn.com/tps/TB1sd0xJXXXXXcuXXXXXXXXXXXX-11-7.png') no-repeat right center;
+  color: #fff;
+  font-size: 21px;
+  height: 64px;
+  line-height: 64px;
+  padding-right: 30px;
+  display: inline-block;
+}
+.wb-alpage-alw .module-wrap .by_floor5 .floor5_con .btn_ul .btn_li .btn_btn {
+  position: absolute;
+  right: 16px;
+  top: 14px;
+}
+.wb-alpage-alw .module-wrap .by_floor5 .floor5_con .btn_ul .btn_li .btncon {
+  padding-left: 17px;
+  margin-top: 33px;
+  display: none;
+}
+.wb-alpage-alw .module-wrap .by_floor5 .floor5_con .btn_ul .btn_li .btncon .btncon_zr,
+.wb-alpage-alw .module-wrap .by_floor5 .floor5_con .btn_ul .btn_li .btncon .btncon_zg {
+  font-weight: bold;
+  color: #666;
+  font-size: 16px;
+  display: block;
+}
+.wb-alpage-alw .module-wrap .by_floor5 .floor5_con .btn_ul .btn_li .btncon .btncon_zrcon,
+.wb-alpage-alw .module-wrap .by_floor5 .floor5_con .btn_ul .btn_li .btncon .btncon_zgcon {
+  color: #666;
+  font-size: 16px;
+  background: url('https://gw.alicdn.com/tps/TB1U0U8JpXXXXbgXFXXXXXXXXXX-7-6.png') no-repeat left center;
+  padding-left: 10px;
+}
+.wb-alpage-alw .module-wrap .by_floor5 .floor5_con .btn_ul .btn_li .btncon .btncon_zg {
+  margin-top: 40px;
+}

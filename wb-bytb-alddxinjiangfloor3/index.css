@@ -1,0 +1,135 @@
+﻿/**
+ * 图片的垂直居中，注意容器不能设置float，会破坏display的效果，有需要建议在外层增加一层div包裹
+ *
+ * 正常使用，将该方法设置给img的父元素即可:
+ *    div.pic-wrapper
+ *      img
+ * 若元素需要float:
+ *    div.float
+ *      div.pic-wrapper
+ *        img
+ * @param width
+ * @param height
+ */
+/**
+ * 兼容一个参数的写法，长宽相等
+ */
+.wb-bytb-alddxinjiangfloor3 .module-wrap {
+  width: 100%;
+  font: 12px 'Microsoft Yahei';
+  overflow: hidden;
+  margin: 0 auto;
+  min-width: 990px;
+  position: relative;
+}
+.wb-bytb-alddxinjiangfloor3 .module-wrap .clear {
+  zoom: 1;
+}
+.wb-bytb-alddxinjiangfloor3 .module-wrap .clear:after {
+  content: '.';
+  display: block;
+  clear: both;
+  height: 0;
+  visibility: hidden;
+}
+.wb-bytb-alddxinjiangfloor3 .module-wrap img {
+  display: block;
+  border: 0;
+  margin: 0 auto;
+}
+.wb-bytb-alddxinjiangfloor3 .module-wrap a {
+  text-decoration: none;
+  outline: none;
+}
+.wb-bytb-alddxinjiangfloor3 .module-wrap a:hover {
+  text-decoration: none;
+}
+.wb-bytb-alddxinjiangfloor3 .module-wrap area {
+  outline: none;
+}
+.wb-bytb-alddxinjiangfloor3 .module-wrap .by_w990 {
+  width: 990px;
+  margin: 0 auto;
+}
+.wb-bytb-alddxinjiangfloor3 .module-wrap .by_con {
+  background: url('https://gw.alicdn.com/tps/TB1WyByNpXXXXXNaFXXXXXXXXXX-2560-200.jpg') repeat-y center top;
+}
+.wb-bytb-alddxinjiangfloor3 .module-wrap .by_con .item_ul .item_li {
+  float: left;
+  width: 240px;
+  height: 342px;
+  background: #fff;
+  margin: 0 10px 10px 0;
+}
+.wb-bytb-alddxinjiangfloor3 .module-wrap .by_con .item_ul .item_li .by_img {
+  width: 240px;
+  height: 240px;
+  position: relative;
+}
+.wb-bytb-alddxinjiangfloor3 .module-wrap .by_con .item_ul .item_li .by_img .item_img {
+  width: 240px;
+  height: 240px;
+}
+.wb-bytb-alddxinjiangfloor3 .module-wrap .by_con .item_ul .item_li .by_img .item_num {
+  font-size: 12px;
+  background: rgba(0, 0, 0, 0.7);
+  color: #fff;
+  padding: 0 9px;
+  height: 20px;
+  line-height: 20px;
+  display: block;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+.wb-bytb-alddxinjiangfloor3 .module-wrap .by_con .item_ul .item_li .item_title,
+.wb-bytb-alddxinjiangfloor3 .module-wrap .by_con .item_ul .item_li .new_price {
+  margin-left: 10px;
+}
+.wb-bytb-alddxinjiangfloor3 .module-wrap .by_con .item_ul .item_li .img1 {
+  margin-left: 6px;
+}
+.wb-bytb-alddxinjiangfloor3 .module-wrap .by_con .item_ul .item_li .item_title {
+  font-size: 14px;
+  display: block;
+  color: #333;
+  width: 225px;
+  overflow: hidden;
+  white-space: nowrap;
+  height: 35px;
+  line-height: 35px;
+  font-weight: bold;
+}
+.wb-bytb-alddxinjiangfloor3 .module-wrap .by_con .item_ul .item_li .item_title b {
+  color: red;
+}
+.wb-bytb-alddxinjiangfloor3 .module-wrap .by_con .item_ul .item_li .new_price {
+  background: url('https://gw.alicdn.com/tps/TB1XtxFNpXXXXa5aFXXXXXXXXXX-45-16.png') no-repeat center left;
+  padding-left: 55px;
+  font-size: 12px;
+  color: #fc441e;
+  display: inline-block;
+  width: 165px;
+  position: relative;
+  height: 23px;
+  line-height: 23px;
+  margin-bottom: 8px;
+}
+.wb-bytb-alddxinjiangfloor3 .module-wrap .by_con .item_ul .item_li .new_price b {
+  font-size: 22px;
+}
+.wb-bytb-alddxinjiangfloor3 .module-wrap .by_con .item_ul .item_li .new_price del {
+  color: #bbbc9c;
+  font-size: 16px;
+  position: absolute;
+  right: 0;
+  top: 2px;
+}
+.wb-bytb-alddxinjiangfloor3 .module-wrap .by_con .item_ul .item_li .link {
+  float: left;
+}
+.wb-bytb-alddxinjiangfloor3 .module-wrap .by_con .item_ul .item_li .link .img1,
+.wb-bytb-alddxinjiangfloor3 .module-wrap .by_con .item_ul .item_li .link .img2 {
+  width: 114px;
+  height: 32px;
+}

@@ -1,0 +1,136 @@
+﻿/**
+ * 图片的垂直居中，注意容器不能设置float，会破坏display的效果，有需要建议在外层增加一层div包裹
+ *
+ * 正常使用，将该方法设置给img的父元素即可:
+ *    div.pic-wrapper
+ *      img
+ * 若元素需要float:
+ *    div.float
+ *      div.pic-wrapper
+ *        img
+ * @param width
+ * @param height
+ */
+/**
+ * 兼容一个参数的写法，长宽相等
+ */
+.al-test1-jk .module-wrap {
+  width: 100%;
+  font: 12px 'Microsoft Yahei';
+  overflow: hidden;
+  margin: 0 auto;
+  min-width: 990px;
+  position: relative;
+}
+.al-test1-jk .module-wrap .clear {
+  zoom: 1;
+}
+.al-test1-jk .module-wrap .clear:after {
+  content: '.';
+  display: block;
+  clear: both;
+  height: 0;
+  visibility: hidden;
+}
+.al-test1-jk .module-wrap img {
+  display: block;
+  border: 0;
+}
+.al-test1-jk .module-wrap a {
+  text-decoration: none;
+  outline: none;
+}
+.al-test1-jk .module-wrap a:hover {
+  text-decoration: none;
+}
+.al-test1-jk .module-wrap .by_w740 {
+  width: 740px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.al-test1-jk .module-wrap .by_w740 .by_group {
+  font-size: 14px;
+  color: #666666;
+}
+.al-test1-jk .module-wrap .by_w740 .con_ul {
+  width: 444px;
+}
+.al-test1-jk .module-wrap .by_w740 .con_ul .con_li {
+  position: relative;
+  width: 140px;
+  float: left;
+  margin: 0 12px 12px 0;
+}
+.al-test1-jk .module-wrap .by_w740 .con_ul .con_li .sp_img {
+  width: 140px;
+  height: 140px;
+  border-radius: 4px;
+}
+.al-test1-jk .module-wrap .by_w740 .con_ul .con_li .sp_price {
+  font-size: 16px;
+  color: #ff4400;
+  float: left;
+  display: block;
+}
+.al-test1-jk .module-wrap .by_w740 .con_ul .con_li .sp_xl {
+  font-size: 12px;
+  color: #666666;
+  float: right;
+  display: block;
+}
+.al-test1-jk .module-wrap .by_w740 .con_ul .con_li .sp_ico {
+  margin-top: 30px;
+}
+.al-test1-jk .module-wrap .by_w740 .con_ul .con_li .sp_dk {
+  font-size: 12px;
+  color: #fff;
+  background: rgba(225, 133, 89, 0.65);
+  position: absolute;
+  left: 22px;
+  top: 169px;
+  padding: 2px 4px;
+  border-radius: 2px;
+}
+.al-test1-jk .module-wrap .by_w740 .by_bottom .group_ul .group_li {
+  float: left;
+  margin-right: 10px;
+}
+.al-test1-jk .module-wrap .by_w740 .by_bottom .con_ul1 {
+  width: 748px;
+}
+.al-test1-jk .module-wrap .by_w740 .by_bottom .con_ul1 .con_li {
+  position: relative;
+  width: 140px;
+  float: left;
+  margin: 0 12px 12px 0;
+}
+.al-test1-jk .module-wrap .by_w740 .by_bottom .con_ul1 .con_li .sp_img {
+  width: 140px;
+  height: 140px;
+  border-radius: 4px;
+}
+.al-test1-jk .module-wrap .by_w740 .by_bottom .con_ul1 .con_li .sp_price {
+  font-size: 16px;
+  color: #ff4400;
+  float: left;
+  display: block;
+}
+.al-test1-jk .module-wrap .by_w740 .by_bottom .con_ul1 .con_li .sp_xl {
+  font-size: 12px;
+  color: #666666;
+  float: right;
+  display: block;
+}
+.al-test1-jk .module-wrap .by_w740 .by_bottom .con_ul1 .con_li .sp_ico {
+  margin-top: 30px;
+}
+.al-test1-jk .module-wrap .by_w740 .by_bottom .con_ul1 .con_li .sp_dk {
+  font-size: 12px;
+  color: #fff;
+  background: rgba(225, 133, 89, 0.65);
+  position: absolute;
+  left: 22px;
+  top: 169px;
+  padding: 2px 4px;
+  border-radius: 2px;
+}

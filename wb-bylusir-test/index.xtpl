@@ -1,0 +1,10 @@
+<div class="module-wrap J_tb_lazyload">
+    <div class="J_clothlist">
+        <div class="J_clothlist_title">
+            <img src="{{moduleinfo.toppic}}" alt="" />
+        </div>
+        <ul class="J_clothlist_details">
+            
+        </ul>
+    </div>
+</div>

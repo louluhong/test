@@ -1,0 +1,25 @@
+
+    <ul class="itemlist clearfix">
+      	<%$.each(data.items,function(index,item){%>
+        <li class="pannel" <%if(index%2===1){%> style="margin-right:0;" <%}%>>
+            <a href="<%=item.item_url%>">
+                <img class="pic j_lazy" data-network alt="1" data-srcset="<%=item.item_pic%>_240x240.jpg"/>
+                <span class="name"><%if(item.isPostFree==true){%><strong>[包邮]</strong><%}%><%=item.item_title%></span>
+                <p class="current-price">&yen;<strong><%=item.item_current_price_pre%>.<%=item.item_current_price_suffix||0%></strong></p>
+                <%if(item.item_dijia_pre!=0&&item.item_dijia_suffix!=0){%>
+                    <div class="di-icon"><span>抵<br/>&yen;<strong><%=item.item_dijia_pre||0%>.<%=item.item_dijia_suffix||0%></strong></span></div>
+                <%}%>
+                <p class="price">&yen;<%=item.item_price%></p>
+                <p class="trade-num"><%=item.item_trade_num%>人已买</p>
+                <%if(item.quantity<=0){%>
+                   <img data-srcset="//gw.alicdn.com/tps/TB1StyqLXXXXXaVXFXXXXXXXXXX-130-130.png" alt="" class="sold-icon">
+                <%}else if(item.item_isAndPay){%>
+                <img data-srcset="//gw.alicdn.com/tps/TB1FMuxLXXXXXbDXpXXXXXXXXXX-85-93.png" alt="" class="mai-icon">
+                <%}%>
+                <%if(data.byzb){%><img src="https://gw.alicdn.com/tps/TB1zB2sMXXXXXX.XpXXXXXXXXXX-64-42.png" alt="" class="byzb"><%}%>
+            </a>
+        </li>
+        <%})%>
+    </ul>
+    <div class="left"><img width="100%" height="100%" src="//gw.alicdn.com/tps/TB1wBmpLXXXXXXoXFXXXXXXXXXX-60-74.png"></div>
+	<div class="right"><img width="100%" height="100%" src="//gw.alicdn.com/tps/TB1oYOELXXXXXbjXXXXXXXXXXXX-60-74.png"></div>

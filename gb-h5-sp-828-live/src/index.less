@@ -1,0 +1,195 @@
+@import "./base-750.less";
+@import "../mixins";
+
+.gb-h5-sp-828-live {
+  .module-wrap {
+    background-image: data-uri('../img/feed-bg.png');
+    background-repeat: repeat-y;
+    background-size: 100% 1px;
+    .padding(35, 0);
+    .box-sizing(border-box);
+    *{
+      .box-sizing(border-box);
+    }
+
+    .panel-container{
+      display: block;
+      position: relative;
+      width: 100%;
+      .height(250);
+      .margin-top(20);
+      &:first-child{
+        .margin-top(0);
+      }
+
+      .left-panel{
+        position: absolute;
+        .left(0);
+        .top(0);
+
+        .width(118);
+        .height(225);
+
+        .user-pic{
+          position: absolute;
+          .left(18);
+          .top(0);
+
+          .width(90);
+          .height(90);
+
+          border: 2px solid #fff;
+          .border-radius(45);
+        }
+
+        .follow{
+          position: absolute;
+          .left(10);
+          .top(75);
+          .width(105);
+          .height(45);
+          background-image: data-uri('../img/follow.png');
+          background-size: 100% 100%;
+          color: #f336ac;
+
+          &.unfollow{
+            background-image: data-uri('../img/unfollow.png');
+          }
+        }
+      }
+
+      .right-panel{
+        position: absolute;
+        .right(20);
+        .top(0);
+        background-color: #fff;
+        .width(604);
+        .height(245);
+        .border-radius(5);
+
+        .detail{
+          .width(360);
+          .padding(20);
+
+          &:before{
+            position: absolute;
+            .left(-15);
+            .top(32);
+            .width(0);
+            .height(0);
+            .border(10, solid, transparent);
+            .border-right(10, solid, #fff);
+            content: '';
+          }
+
+          .title{
+            color: #333333;
+            .font-size(28);
+            .multiple-line-ellipsis-shrink(2, 35);
+            font-weight: normal;
+            .margin-top(10);
+          }
+
+          .tags{
+            .status{
+              .inline-block();
+              position: relative;
+              .height(30);
+              .padding(5, 10);
+              .font-size(22);
+              .line-height(22);
+              color: #fff;
+              .border-radius(2);
+
+              &.status-live{
+                background-image: data-uri('../img/status-live.png');
+                background-size: 100% 100%;
+                background-repeat: no-repeat;
+              }
+              &.status-notify{
+                background-color: #64d982;
+              }
+              &.status-replay{
+                background-color: #a421ff;
+              }
+            }
+
+            .country-info{
+              .inline-block();
+              .height(30);
+              .line-height(30);
+              background-color: #cccccc;
+              .padding(0, 4, 0, 7);
+              .border-radius(2);
+              vertical-align: top;
+              span{
+                position: relative;
+                color: #fff;
+                .font-size(22);
+
+                &.country{
+                  .left(-6);
+                }
+
+                &.icon-dingwei{
+                  .top(-1);
+                }
+              }
+            }
+          }
+
+          .info{
+            position: absolute;
+            .left(20);
+            .bottom(20);
+            color: #8605ff;
+
+            span{
+              .font-size(24);
+
+              &.info-content{
+                position: relative;
+                .top(3);
+              }
+            }
+          }
+        }
+
+        .pic-container{
+          position: absolute;
+          .right(0);
+          .top(0);
+
+          .btn-play,
+          .btn-notify{
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            .width(80);
+            .height(80);
+            .margin-left(-30);
+            .margin-top(-38);
+            background-size: 100% 100%;
+
+            &.btn-play{
+              background-image: data-uri('../img/btn-play.png');
+            }
+
+            &.btn-notify{
+              background-image: data-uri('../img/btn-notify.png');
+            }
+          }
+
+          .pic{
+            .width(245);
+            .height(245);
+            .border-radius(0, 5, 5, 0);
+          }
+
+        }
+      }
+    }
+
+
+  }
+}

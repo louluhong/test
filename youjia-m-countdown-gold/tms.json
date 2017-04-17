@@ -1,0 +1,28 @@
+{
+  "name": "youjia-m-countdown-gold",
+  "version": "0.0.1",
+  "author": "文郑",
+  "type": "module",
+  "group": "tb",
+  "description": "极有家无线倒数5秒领取金币",
+  "template": {
+    "type": "xtemplate",
+    "ext": ".xtpl",
+    "version": "~4.0.5"
+  },
+  "assets": {
+    "kimi": "0.0.233",
+    "tb-init-kimi": "*",
+    "m-base": "*",
+    "hairlines": "*"
+  },
+  "widths": [
+    "100%"
+  ],
+  "schema": {
+    "id": "",
+    "version": ""
+  },
+  "screenshot": "//img.alicdn.com/tfs/TB1TCW8KpXXXXXGaXXXXXXXXXXX-352-646.png",
+  "modify_time": "2016-8-4 11:54:52"
+}

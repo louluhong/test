@@ -1,0 +1,27 @@
+<div class="module-wrap J_tb_lazyload">
+	<textarea class="J_conf dataText" style="display:none;">{{$env.JSON.stringify(this)}}</textarea>
+	<div class="by_con" style="background: url('https://gw.alicdn.com/tps/TB1rFJ2LVXXXXb9XXXXXXXXXXXX-1920-135.jpg') repeat-y center top;">
+		<div class="by_w990">
+			<div class="big_video">
+				<img src="https://gw.alicdn.com/tps/TB1EhxwLVXXXXc.aXXXXXXXXXXX-475-475.jpg" alt="" class="by_img">
+				<div class="by_video"></div>
+			</div>
+			<img src="https://gw.alicdn.com/tps/TB1nAlZLVXXXXa4XFXXXXXXXXXX-39-124.png" alt="" class="by_next">
+			<img src="https://gw.alicdn.com/tps/TB1avpLLVXXXXX5aXXXXXXXXXXX-39-124.png" alt="" class="by_prev">
+			<div class="J_tab">
+				<div class="slide_ul clear tab-content" style="position: relative;">
+					{{#each(items)}} 
+					<div class="slide_li tab-pannel">
+						<img src="{{sp_img}}" alt="" class="video_img">
+						<div class="big_mask"></div>
+						<div class="by_mask"></div>
+						<span class="video_font">{{sp_title}}</span>
+						<img src="https://gw.alicdn.com/tps/TB19uNSLVXXXXayXVXXXXXXXXXX-216-136.png" alt="" class="video_border">
+					</div>
+					{{/each}}
+				</div>
+			</div>
+			
+		</div>
+	</div>
+</div>

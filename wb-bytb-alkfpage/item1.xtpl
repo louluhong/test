@@ -1,0 +1,12 @@
+
+{{#each (items)}}
+	<li class="item_li"{{#if(xindex%4===3)}} style="margin-right: 0" {{/if}}>
+		<a href="##" target="_blank">
+			<img data-ks-lazyload="{{item_img}}" alt="" class="item_img">
+			<span class="item_font">{{item_font}}</span>
+			<span class="item_price">{{item_price}}元/月</span>
+			<span class="item_num">{{item_num}}人</span>
+		</a>
+	</li>
+{{/each}}
+

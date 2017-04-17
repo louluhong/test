@@ -1,0 +1,54 @@
+@import "../mixins";
+@bili:75rem;
+.wb-bytjb-allotternew-m{
+  .module-wrap {
+  	font-size: 24/@bili;font-family:"Helvetica Neue","Hiragino Sans GB W3","Hiragino Sans GB","Microsoft YaHei","WenQuanYi Micro Hei",sans-serif;padding-bottom: 1px;
+    img{display: block;border: 0;width: 100%;}
+    a{display: block;text-decoration: none;-webkit-tap-highlight-color: rgba(0, 0, 0, 0);}
+    a:hover{ text-decoration: none}
+    .clearfix{height: auto;overflow: hidden}
+      
+      .con{margin: 0 20/@bili; padding: 4/@bili 0 0  8/@bili;box-sizing: border-box;}
+      .prolist {
+          float: left;width: 348/@bili;box-sizing: border-box;height: 217/@bili;
+          img{float: left;width: 150/@bili;margin-top: 30/@bili;}  
+          .des{
+              float: left;width: 185/@bili;padding-top: 18/@bili;
+              .item_title{line-height:26/@bili ;color: #004750;font-size: 20/@bili;height: 26*3/@bili;overflow: hidden;}
+              .item_price{line-height:40/@bili ;color: #004750;font-size: 20/@bili;height: 45/@bili;b{color: #ff2735;font-weight: normal;}}
+              .buy{width: 178/@bili;height: 48/@bili;color: #ffffff;font-size: 24/@bili;text-align: center;line-height: 48/@bili;border-radius: 5/@bili;}
+          }
+      }
+      .zcprolist{
+          .des{
+              .buy{background: #00a8c5;}
+          }
+      }
+      .msprolist{
+          .des{
+              .item_title{height: 26*2/@bili;}
+              .item_price{color: #ff3044;margin-bottom: 26/@bili;}
+              .buy{background: #fc5e68;}
+              .buy:after{content: "立即秒杀"}
+          }
+          .item-before{
+              .des{
+                  .buy{background: #febd2d;}
+                  .buy:after{content: "即将开始"}
+              }
+          }
+          .item-after{
+              .des{
+                  .buy{background: #fa606c;font-size: 18/@bili;}
+                  .buy:after{content: ""}
+              }
+          }
+          .item-end{
+              .des{
+                  .buy{background: #a2a2a2;}
+                  .buy:after{content: "秒杀结束"}
+              }
+          }
+      }
+  }
+}

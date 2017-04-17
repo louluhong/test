@@ -1,0 +1,12 @@
+{{set(version='3.11.5')}}
+{{#if($env.url.host.indexOf('m.taobao.com')!==-1)}}
+<link href="//g.alicdn.com/tb/m-youjia/{{version}}/p/card-tpl/index.css" rel="stylesheet"/>
+{{else}}
+<link href="//g-assets.daily.taobao.net/tb/m-youjia/{{version}}/p/card-tpl/index.css" rel="stylesheet"/>
+{{/if}}
+
+<div class="module-wrap J_tb_lazyload">
+  <textarea class="J_dynamic_data" style="display:none" cols="30" rows="10">
+      {{{$env.JSON.stringify(this)}}}
+  </textarea>
+</div>

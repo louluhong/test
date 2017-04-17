@@ -1,0 +1,16 @@
+<% $.each(items2, function(index,item) { %>
+
+    <li class="proitem proitem_<%=item.item_id%> " data-id="<%=item.item_id%>" >
+       <a href="<%=item.item_url%>" target="_blank" class="clearfix">
+           <img data-src="<%=item.item_pic%>_150x150q50.jpg" class="J_LazyLoad">
+           <div class="des">
+               <p class="item_title"><%=item.item_title%></p>
+               <p class="item_price"><%=item.item_jbs_price%></p>
+               <p class="buy"></p>
+           </div>
+       </a>
+    </li>
+
+<% });%>
+
+

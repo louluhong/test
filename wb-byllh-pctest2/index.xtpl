@@ -1,0 +1,49 @@
+<div class="module-wrap J_tb_lazyload">
+	<div class="al_page">
+		<div class="by_con">
+			<div class="by_banner">
+				<div class="by_w990">
+					<img src="http://gtms02.alicdn.com/tps/i2/TB1jxaHKXXXXXXtXFXXsvvJHXXX-990-280.jpg" alt="">
+					<img src="http://gtms04.alicdn.com/tps/i4/TB1wEaLKXXXXXbGXpXXsvvJHXXX-990-280.jpg" alt="">
+					<img src="http://gtms04.alicdn.com/tps/i4/TB1JMc8KXXXXXaKaXXXn9bZZVXX-320-399.png" alt="" class="by_hongbao">
+                    <a href="" class="hongbao" target="_blank"></a>
+                    <a href="##" class="kajuan">
+                    	<img src="http://gtms01.alicdn.com/tps/i1/TB1AsBGKpXXXXXNXpXXGs67HXXX-172-68.png" alt="">
+                    </a>
+                    <a href="##" class="guize">
+                    	<img src="http://gtms03.alicdn.com/tps/i3/TB1SPueKpXXXXaYXpXXGs67HXXX-172-68.png" alt="" class="by_gz">
+                    </a>
+				</div>
+			</div>
+			<!-- 红包规则 -->
+			<div class="fc_mask"></div>
+			<div class="by_fc">
+				<p class="by_text1">活动时间：</p>
+				<p class="by_text2">2015年10月24日00:00:00至2015年11月10日23:59:59</p>
+				<p class="by_text1">参与条件：</p>
+				<p class="by_text2">用户的淘宝会员账号所绑定的支付宝账号须通过实名认证，并开启余额支付功能，否则不能中奖。</p>
+				<p class="by_text1">活动细则：</p>
+				<p class="by_text2">1.&nbsp;双11红包面额为1元、2元、5元、10元、20元、1111元；双11购物券面额为10元。数量有限,赶紧来玩吧。</p>
+				<a href="##" class="ico_close"></a>
+			</div>
+			<!-- 今日1折 -->
+			<textarea class="J_conf dataText" style="display: none;">{{$env.JSON.stringify(this)}}</textarea>
+			<div class="by_floor1">
+				<div class="by_w990"><!-- http://gtms04.alicdn.com/tps/i4/TB1MT9TKXXXXXclXXXX5QLsHXXX-990-155.jpg -->
+					<img src="{{moduleinfo.floor1_title}}" alt="">
+					<ul class="by_con_ul temp-time">
+						
+					</ul>
+				</div>
+			</div>
+			<div class="by_floor2">
+				<img src="http://gtms03.alicdn.com/tps/i3/TB12OOCKXXXXXcDXFXXZ12oHXXX-990-129.jpg" alt="">
+				<div class="by_w990">
+					<ul class="sp_ul clear">
+						
+	                </ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

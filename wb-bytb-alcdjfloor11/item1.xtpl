@@ -1,0 +1,48 @@
+
+    {{#each (items)}}
+        {{#if(xindex<3)}}
+        <li class="item" {{#if(xindex%3===2)}} style="margin-right: 0;"{{/if}}>
+            {{#if(item_status !== '5') }}
+                <span class="flag status-{{ item_status }}"></span>
+            {{/if}}
+            <a class="normal-link" href="//market.m.taobao.com/markets/cdj/m/item?id={{ item_iid }}" target="_blank">
+                <img data-ks-lazyload="{{item_pic}}">
+                <span class="info">
+                    <span class="title">
+                        <span>{{item_title}}</span>
+                    </span>
+
+                    <span class="price">
+                        {{#if(item_status === "6") }}
+                            达成率<span class="cdj-color-0">{{item_achieving_rate }}</span>%
+                        {{else}}
+                                {{#if(item_price)}}
+                                    {{#if(item_status === "2" || item_status === "10") }}
+                                        首发价<span class="cdj-color-0">{{ item_price}}</span>元
+                                    {{else}}
+                                        约<span class="cdj-color-0">{{ item_price }}</span>元
+                                    {{/if}}
+                                {{else}}
+                                    价格未知
+                                {{/if}}
+                        {{/if}}
+                    </span>
+                    <span class="sale-amount" data-status="<%= item_status %>">
+                        {{#if(item_status === "6") }}
+                            已筹<span>{{ item_amount_sold }}</span>元 | {{ item_support }}人支持
+                        {{else}}
+                           <i>&#xe601;</i><span class="ver2-txt">{{ item_favorite || '&nbsp;' }}</span>
+                           <i class="spec">&#xe600;</i><span class="ver2-txt">{{ item_browse_count || '&nbsp;' }}</span>
+                        {{/if}}
+                    </span>
+                </span>
+                {{#if(item_more_desc) }}
+                    <span class="light">
+                        <span>{{ item_more_desc }}</span>
+                    </span>
+                {{/if}}
+            </a>
+        </li>
+        {{/if}}
+{{/each}}
+

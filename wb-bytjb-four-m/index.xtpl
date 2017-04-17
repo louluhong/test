@@ -1,0 +1,41 @@
+<div class="module-wrap J_tb_lazyload" style="background:{{moduleinfo.bgcolor}};">
+	<textarea class="J_conf dataText" style="display:none;">{{$env.JSON.stringify(this)}}</textarea>
+
+	<div class="by-page" style="background:{{moduleinfo.pagecolor}};">
+		<!-- 标题 -->
+		<div class="by-titles">
+			<div class="title1">
+				{{#if (moduleinfo.title_text1)}}<p style="color:{{moduleinfo.title1_color}}">{{moduleinfo.title_text1}}</p>{{/if}}
+				{{#if (moduleinfo.title1_pic)}}<img src="{{moduleinfo.title1_pic}}" alt="">{{/if}}
+			</div>
+			<div class="title2">
+				{{#if (moduleinfo.title_text2)}}<p style="color:{{moduleinfo.title2_color}}">{{moduleinfo.title_text2}}</p>{{/if}}
+				{{#if (moduleinfo.title2_pic)}}<img src="{{moduleinfo.title2_pic}}" alt="">{{/if}}
+			</div>
+		</div>
+		<!--秒杀tab切换轮播坑位 -->
+		<div class="by-msitems" style="background-color:{{moduleinfo.bgcolor}};">
+			<div class="km-slider" id="slider">
+		        <div class="km-slider-outer">
+			      <ul class="itemlist clearfix">
+			        <li>
+			          <a href="//m.taobao.com">
+			            <img class="pic" data-network alt="1" data-srcset=""/>
+			            <span class="name"><strong>[包邮]</strong>西班牙脐橙12个单果重约190g</span>
+			            <span class="current-price">&yen;<strong>1000</strong><em> +1400</em><i>淘金币</i></span>
+			            <div class="di-icon"><p>抵<br/>&yen;5.88</p></div>
+			            <p class="price">&yen;1000</p>
+			            <p class="trade-num">12345人已买</p>
+			            <img src="//gw.alicdn.com/tps/TB1UIyxLXXXXXbBXpXXXXXXXXXX-111-105.png" alt="" class="dui-icon">
+			            <img src="//gw.alicdn.com/tps/TB1StyqLXXXXXaVXFXXXXXXXXXX-130-130.png" alt="" class="sold-icon">
+			            <img src="//gw.alicdn.com/tps/TB1FMuxLXXXXXbDXpXXXXXXXXXX-85-93.png" alt="" class="mai-icon">
+			          </a>
+			        </li>
+			       </ul>
+		        </div>
+		    </div>
+			<div class="left"><img src="//gw.alicdn.com/tps/TB1wBmpLXXXXXXoXFXXXXXXXXXX-60-74.png"></div>
+			<div class="right"><img src="//gw.alicdn.com/tps/TB1oYOELXXXXXbjXXXXXXXXXXXX-60-74.png"></div>
+		</div>
+	</div>
+</div>

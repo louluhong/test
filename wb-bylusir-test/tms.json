@@ -1,0 +1,28 @@
+{
+  "name": "wb-bylusir-test",
+  "version": "0.0.1",
+  "author": "{张雯莉}({WB085724})",
+  "type": "module",
+  "group": "tb",
+  "description": "safas",
+  "template": {
+    "type": "xtemplate",
+    "ext": ".xtpl",
+    "version": "~4.0.5"
+  },
+  "assets": {
+    "kimi": "0.0.233",
+    "tb-init-kimi": "*",
+    "m-base": "*",
+    "hairlines": "*"
+  },
+  "widths": [
+    "100%"
+  ],
+  "schema": {
+    "id": 31524,
+    "version": "fda3f146c95f6e9a106a45720b8b6e059768f1b1",
+    "url": "http://dip.alibaba-inc.com/pages/schemas/31524"
+  },
+  "screenshot": ""
+}

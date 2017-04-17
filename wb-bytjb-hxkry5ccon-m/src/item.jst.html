@@ -1,0 +1,9 @@
+<%$.each(items,function(k,v){%>
+    <li class="con_li" <% if(k%2===1){%> style="margin-right:0;"<%}%>>
+		<a href="<%=v.item_url%>" target="_blank">
+			<img data-src="<%=v.item_pic%>" alt="" class="con_img J_LazyLoad">
+			<span class="con_price"><%=v.item_price%><b>元起</b></span>
+			<img src="https://gw.alicdn.com/tps/TB1DAoOHVXXXXXCaXXXXXXXXXXX-130-81.jpg" alt="" class="con_btn">
+		</a>
+	</li>
+<% });%>

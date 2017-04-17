@@ -1,0 +1,121 @@
+@import "./base-750.less";
+@import "../mixins";
+
+.gb-h5-sp-828-sitenav{
+  .module-wrap {
+    .sitenav-wrapper{
+      transition: top .3s;
+      -webkit-transition: top .3s;
+
+      &.scroll-fixed{
+        position: fixed;
+        .top(-10);
+
+        .btn-goto,
+        .panel-notice,
+        .btn-share,
+        .btn-video-list{
+          background-color: rgba(0, 0, 0, 80%);
+          .border-radius(0, 0, 3, 3);
+        }
+      }
+    }
+
+    .sitenav-wrapper{
+      position: fixed;
+      top: 0;
+      left: 0;
+      .padding(10);
+      font-size: 0;
+      z-index: 400;
+
+    	.btn-goto,
+      .panel-notice,
+      .btn-share,
+      .btn-video-list{
+        .inline-block();
+        .width(90);
+        .height(90);
+        .line-height(45);
+        background-color: rgba(0, 0, 0, 20%);
+        color: #fff;
+        .font-size(20);
+        .border-radius(3);
+        text-align: center;
+        transition: background-color 1s;
+        -webkit-transition: background-color 1s;
+
+        >.iconfont{
+          position: relative;
+          .top(8);
+          .font-size(40);
+        }
+      }
+
+      .btn-goto{
+        .icon-back{
+          .top(0);
+          .line-height(90);
+        }
+      }
+
+      .panel-notice{
+        width: auto;
+        .margin(0, 20);
+        .translate(0, -110);
+        transition-property: transform, background-color;
+        transition-duration: 1s;
+        -webkit-transition-property: transform, background-color;
+        -webkit-transition-duration: 1s;
+
+        .icon-notification{
+          .top(0);
+          .inline-block();
+          .width(70);
+          .line-height(90);
+        }
+
+        .notice-content{
+          .inline-block();
+          .font-size(24);
+          .width(340);
+          .line-height(36);
+          .padding(9, 0);
+          -webkit-line-clamp: 2;
+          overflow: hidden;
+          text-align: left;
+        }
+
+        &.slideShow{
+          .translate(0, 0);
+        }
+      }
+
+      .btn-share{
+        .border-radius(3, 0, 0, 3);
+      }
+
+      .btn-video-list{
+        .margin-left(2);
+        .border-radius(0, 3, 3, 0);
+      }
+
+
+      &.sitenav-button-3{
+
+        .notice-content{
+          .width(430);
+        }
+
+        .btn-share{
+          .border-radius(3);
+        }
+
+        .btn-video-list{
+          display: none;
+        }
+
+      }
+    }
+  }
+}

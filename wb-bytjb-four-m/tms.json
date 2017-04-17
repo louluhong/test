@@ -1,0 +1,28 @@
+{
+  "name": "wb-bytjb-four-m",
+  "version": "0.0.1",
+  "author": "{林浩宇}({WB053953})",
+  "type": "module",
+  "group": "tb",
+  "description": "淘金币定时秒杀抢，商品数量大于4轮播效果，五折兑",
+  "template": {
+    "type": "xtemplate",
+    "ext": ".xtpl",
+    "version": "~4.0.5"
+  },
+  "assets": {
+    "kimi": "0.0.233",
+    "tb-init-kimi": "*",
+    "m-base": "*",
+    "hairlines": "*"
+  },
+  "widths": [
+    "100%"
+  ],
+  "schema": {
+    "id": 13714,
+    "version": "",
+    "url": "http://dip.alibaba-inc.com/pages/schemas/13714"
+  },
+  "screenshot": "//img.alicdn.com/tps/TB1_ph5LXXXXXcUaXXXXXXXXXXX-433-796.png"
+}

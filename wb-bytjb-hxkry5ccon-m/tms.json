@@ -1,0 +1,28 @@
+{
+  "name": "wb-bytjb-hxkry5ccon-m",
+  "version": "0.0.1",
+  "author": "{张雯莉}({WB085724})",
+  "type": "module",
+  "group": "tb",
+  "description": "description……",
+  "template": {
+    "type": "xtemplate",
+    "ext": ".xtpl",
+    "version": "~4.0.5"
+  },
+  "assets": {
+    "kimi": "0.0.233",
+    "tb-init-kimi": "*",
+    "m-base": "*",
+    "hairlines": "*"
+  },
+  "widths": [
+    "100%"
+  ],
+  "schema": {
+    "id": 24534,
+    "version": "",
+    "url": "http://dip.alibaba-inc.com/pages/schemas/24534"
+  },
+  "screenshot": ""
+}

@@ -1,0 +1,8 @@
+<div class="module-wrap J_tb_lazyload">
+	<div class="by_bottom" style="background: {{moduleinfo.bg_color}}">
+		<div class="by_w990" style="position: relative;">
+			<img src="https://gw.alicdn.com/tps/TB1jQ_mLVXXXXbAXXXXXXXXXXXX-990-398.jpg" alt="">
+			<a href="{{moduleinfo.bg_color}}" target="_blank" class="bottom_btn"></a>
+		</div>
+	</div>
+</div>

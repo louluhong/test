@@ -1,0 +1,28 @@
+{
+  "name": "alTest1Jk",
+  "version": "0.0.1",
+  "author": "{娄露红}({WB085725})",
+  "type": "module",
+  "group": "tb",
+  "description": "description……",
+  "template": {
+    "type": "xtemplate",
+    "ext": ".xtpl",
+    "version": "~4.0.5"
+  },
+  "assets": {
+    "kissy": "^6.2.0",
+    "tb-global": "*",
+    "tb-init": "*"
+  },
+  "widths": [
+    "100%"
+  ],
+  "schema": {
+    "id": 32563,
+    "version": "",
+    "url": "http://dip.alibaba-inc.com/pages/schemas/32563"
+  },
+  "screenshot": "",
+  "modify_time": "2016-4-25 18:35:59"
+}

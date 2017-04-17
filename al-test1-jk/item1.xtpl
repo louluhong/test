@@ -1,0 +1,13 @@
+{{#each (data)}}
+	{{#if (xindex<10)}}
+	<li class="con_li clear" {{#if(xindex%5===4)}} style="margin-right: 0;" {{/if}}>
+		<a href="{{item_url}}" target="_blank">
+			<img src="{{item_pic}}" alt="" class="sp_img">
+			<span class="sp_price">￥{{item_current_price}}</span>
+			<span class="sp_xl">{{item_trade_num}}人已买</span>
+			<img src="https://gw.alicdn.com/tps/TB1CQ8YMFXXXXbQXFXXXXXXXXXX-22-15.png" alt="" class="sp_ico">
+			<span class="sp_dk">淘金币再抵￥{{item_dijia}}</span>
+		</a>
+	</li>
+	{{/if}}
+{{/each}}

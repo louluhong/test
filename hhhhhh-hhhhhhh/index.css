@@ -1,0 +1,46 @@
+﻿/**
+ * 图片的垂直居中，注意容器不能设置float，会破坏display的效果，有需要建议在外层增加一层div包裹
+ *
+ * 正常使用，将该方法设置给img的父元素即可:
+ *    div.pic-wrapper
+ *      img
+ * 若元素需要float:
+ *    div.float
+ *      div.pic-wrapper
+ *        img
+ * @param width
+ * @param height
+ */
+/**
+ * 兼容一个参数的写法，长宽相等
+ */
+.hhhhhh-hhhhhhh .module-wrap .lay {
+  width: 990px;
+  margin: 0 auto;
+  height: auto;
+}
+.hhhhhh-hhhhhhh .module-wrap .shoplay,
+.hhhhhh-hhhhhhh .module-wrap shoplay1 {
+  width: 100%;
+  overflow: hidden;
+}
+.hhhhhh-hhhhhhh .module-wrap .shoplay li {
+  width: 320px;
+  height: 225px;
+  float: left;
+  margin: 10px 15px 0 0;
+  background: red;
+}
+.hhhhhh-hhhhhhh .module-wrap .shoplay li.last {
+  margin-right: 0px;
+}
+.hhhhhh-hhhhhhh .module-wrap .shoplay1 li {
+  width: 320px;
+  height: 225px;
+  float: left;
+  margin: 10px 15px 0 0;
+  background: red;
+}
+.hhhhhh-hhhhhhh .module-wrap .shoplay1 li.last {
+  margin-right: 0px;
+}

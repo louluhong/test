@@ -1,0 +1,64 @@
+<div class="km-slider-outer">
+    <ul class="faxian-list clear">
+    {{#each(items)}}
+        <li class="item type-{{ type }} {{#if(item_num <= '0')}}sold-out{{/if}}">
+            <a href="{{item_url }}">
+                <span class="m1" >
+                    <!-- (parseInt(item_num)===0) -->
+                    {{#if(item_num==='0')}}
+                        <div class="xzp_mastsq"><img src="//gw.alicdn.com/tps/TB1yKKYLXXXXXcPXpXXXXXXXXXX-280-280.png_q50.jpg" /></div>
+                    {{/if}}
+                    <img data-ks-lazyload="{{item_pic }}">
+                </span>
+                <span class="info">
+                    <span class="t1">
+                        <span>{{item_title }}</span>
+                    </span>
+                    <span class="move-to cdj-border-0">
+                        {{#if(item_num > '0') }}
+                            <span class="t3">
+                                还剩{{item_num }}件
+                            </span>
+                            <span class="t4 cdj-bg-0">
+                                <!-- parseInt((10-item_discount)*10) -->
+                                直降{{item_discount}}%
+                            </span>
+                        {{/if}}
+                        {{#if(item_num === '0') }}
+                            <span class="t3" style="background: #0088cc; color: #ffffff;">
+                                还剩{{item_num }}件
+                            </span>
+                            <span class="t4 cdj-bg-0" style="background: #999999; color: #ffffff;">
+                                直降{{item_discount}}%
+                            </span>
+                        {{/if}}
+                    </span>
+                    <span class="price">
+                        {{#if(type === "0"&& item_num>'0')}}
+                            <span class="xzp_xsj1">
+                                即将开始
+                            </span>
+                            <span class="pc cdj-color-0 xzp_p1"><span class="xzp_fh2">￥</span>{{item_current_price }}</span>
+                            <span class="po "><span class="xzp_fh1">￥{{item_price }}</span></span>
+                        {{/if}}
+                        {{#if(type==="1"&& item_num>'0')}}
+                            <span class="xzp_xsj2">
+                                限时价
+                            </span>
+                            <span class="pc cdj-color-0 xzp_p2"><span class="xzp_fh2">￥</span>{{item_current_price}}</span>
+                            <span class="po"><span class="xzp_fh1">￥{{item_price}}</span></span>
+                        {{/if}}
+                        {{#if(item_num==='0')}}
+                            <span class="xzp_xsj3">
+                                已售罄
+                            </span>
+                            <span class="pc cdj-color-0 xzp_p3"><span class="xzp_fh2">￥</span>{{item_current_price }}</span>
+                            <span class="po"><span class="xzp_fh1">￥{{item_price }}</span></span>
+                        {{/if}}
+                    </span>
+                </span>
+            </a>
+        </li>
+    {{/each}}
+    </ul>
+</div>

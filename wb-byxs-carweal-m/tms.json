@@ -1,0 +1,27 @@
+{
+  "name":"wb-byxs-carweal-m",
+  "version":"0.0.1",
+  "author": "{徐伟萍}({WB033476})",
+  "type":"module",
+  "group":"tb",
+  "description": "车主抽福利抽奖",
+  "template": {
+    "type": "xtemplate",
+    "ext": ".xtpl",
+    "version": "~4.0.5"
+  },
+  "assets":{
+    "kimi": "0.0.233",
+    "tb-init-kimi": "*",
+	  "m-base": "*",
+	  "hairlines": "*"
+  },
+  "widths": [
+    "100%"
+  ],
+  "schema": {
+    "id": "",
+    "version": ""
+  },
+  "screenshot":""
+}

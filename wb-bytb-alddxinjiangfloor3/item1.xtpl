@@ -1,0 +1,18 @@
+
+{{#each (items)}}
+	<li class="item_li clear" {{#if(xindex%4===3)}} style="margin-right:0;" {{/if}}>
+		<div class="by_img">
+			<img data-ks-lazyload="{{item_pic}}" alt="" class="item_img">
+			<span class="item_num">已售{{item_trade_num}}件</span>
+		</div>
+		<span class="item_title">{{{item_title}}}</span>
+		<span class="new_price">&yen;<b>{{item_current_price}}</b><del>&yen;{{item_price}}</del></span>
+		<a href="{{yhq}}" class="link" target="_blank">
+			<img src="https://gw.alicdn.com/tps/TB1yTxONpXXXXabapXXXXXXXXXX-114-32.jpg" alt="" class="img1">
+		</a>
+		<a href="{{item_url}}" class="link" target="_blank">
+			<img src="https://gw.alicdn.com/tps/TB1O68WNpXXXXc5XVXXXXXXXXXX-114-32.jpg" alt="" class="img2">
+		</a>
+	</li>
+{{/each}}
+

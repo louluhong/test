@@ -1,0 +1,36 @@
+<div class="sitenav-wrapper <%if(curPlace === '节目单'){ %>sitenav-button-3<% } %>">
+  <% if(curPlace === '分会场'){ %>
+  <a href="//market.m.taobao.com/markets/gmall/24hr-global-livestreaming">
+    <div class="btn-goto">
+      <span class="iconfont icon-back"></span>
+    </div>
+  </a>
+  <% } else if(curPlace === '节目单'){ %>
+  <div class="btn-goto back-last">
+    <span class="iconfont icon-back"></span>
+  </div>
+  <% } else { %>
+  <div class="btn-goto back-home">
+    <span class="iconfont icon-back"></span>
+  </div>
+  <% } %>
+
+  <a class="notice-url">
+    <div class="panel-notice">
+        <span class="iconfont icon-notification"></span>
+        <p class="notice-content"></p>
+    </div>
+  </a>
+
+  <div class="btn-share">
+    <p class="iconfont icon-share"></p>
+    分享
+  </div>
+
+  <a href="//market.m.taobao.com/markets/gmall/24hr-global-livestreaming/timetable">
+    <div class="btn-video-list">
+      <p class="iconfont icon-form"></p>
+      节目单
+    </div>
+  </a>
+</div>

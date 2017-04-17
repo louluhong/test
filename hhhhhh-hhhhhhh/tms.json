@@ -1,0 +1,27 @@
+{
+  "name": "hhhhhhHhhhhhh",
+  "version": "0.0.1",
+  "author": "{林浩宇}({WB053953})",
+  "type": "module",
+  "group": "tb",
+  "description": "description……",
+  "template": {
+    "type": "xtemplate",
+    "ext": ".xtpl",
+    "version": "~4.0.5"
+  },
+  "assets": {
+    "kissy": "^6.2.0",
+    "tb-global": "*",
+    "tb-init": "*"
+  },
+  "widths": [
+    "100%"
+  ],
+  "schema": {
+    "id": 15424,
+    "version": "",
+    "url": "http://dip.alibaba-inc.com/pages/schemas/15424"
+  },
+  "screenshot": ""
+}

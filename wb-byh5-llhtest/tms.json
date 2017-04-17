@@ -1,0 +1,28 @@
+{
+  "name": "wb-byh5-llhtest",
+  "version": "0.0.1",
+  "author": "{李通}({WB080843})",
+  "type": "module",
+  "group": "tb",
+  "description": "description……",
+  "template": {
+    "type": "xtemplate",
+    "ext": ".xtpl",
+    "version": "~4.0.5"
+  },
+  "assets": {
+    "kimi": "0.0.233",
+    "tb-init-kimi": "*",
+    "m-base": "*",
+    "hairlines": "*"
+  },
+  "widths": [
+    "100%"
+  ],
+  "schema": {
+    "id": 12087,
+    "version": "0a4c117088c03546c5f23060608749736af99924",
+    "url": "http://dip.alibaba-inc.com/pages/schemas/12087"
+  },
+  "screenshot": ""
+}

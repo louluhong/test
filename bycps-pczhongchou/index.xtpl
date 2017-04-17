@@ -1,0 +1,8 @@
+<div class="module-wrap J_tb_lazyload">
+	<textarea class="J_conf dataText" style="display:none;">{{$env.JSON.stringify(this)}}</textarea>
+	<div class="pro_list">
+		<ul class="zc_displayM zc-wrapper2">
+			
+		</ul>
+	</div>
+</div>

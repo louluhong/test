@@ -1,0 +1,12 @@
+<div class="module-wrap J_tb_lazyload" style="background:{{moduleinfo.bgcolor}}">
+  
+ 
+    <script type="text/data" class="J_ModuleData">{{{$env.JSON.stringify(this)}}}</script>
+   
+
+    <div class="list-wrap">
+        <div class="item-wrap">
+            <ul class="item-ul clearfix"></ul>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,42 @@
+<div class="module-wrap J_tb_lazyload" data-schema="{{$env.JSON.stringify(this)}}" data-now="{{$page.now}}">
+	<textarea class="J_conf dataText" style="display:none;">{{$env.JSON.stringify(this)}}</textarea>
+	<div class="by_w740">
+		<div class="by_w718">
+			<div class="by_left">
+				<div class="by_top cdj-loading">
+					<img src="https://gw.alicdn.com/tps/TB1n7i.MXXXXXaVXFXXXXXXXXXX-438-57.png" alt="" class="page_logo">
+					<a href="{{moduleinfo.link1}}" target="_blank" class="by_link1"></a>
+					<a href="{{moduleinfo.link2}}" target="_blank" class="by_link2"></a>
+					<a href="{{moduleinfo.link3}}" target="_blank" class="by_link3"></a>
+					<a href="{{moduleinfo.img_link}}" target="_blank">
+						<img data-ks-lazyload="{{moduleinfo.floor_img}}" alt="" class="sp_img">
+					</a>
+					<div class="by_con">
+						<ul class="con_ul">
+						</ul>
+					</div>
+				</div>
+				<div class="by_bottom cdj-loading">
+					<img src="https://gw.alicdn.com/tps/TB1sya9MXXXXXczXFXXXXXXXXXX-438-35.png" alt="" class="floor2_title">
+					<a href="{{moduleinfo.more_link}}" class="more_link"></a>
+					<div class="item-wrap">
+						<div class="J_MeiRiXinFaXianItems content">
+						    <div class="xs-container">
+						      	<ul class="J_FaxianList xs-content">
+						      		
+						      	</ul>
+						    </div>
+						</div>
+					</div>
+				</div>
+			</div>	
+			<div class="by_right cdj-loading">
+				<div class="inner">
+		            <span class="title">今日闪购</span><div id="J_SGTMCountDown1" class="cd cd-slide"><span></span>：${h}时${m}分${s}秒</div>
+		        </div>
+		        <div id="J_ShanGouTeMaiItems1" class="content"></div>
+				</div>
+		    </div>
+		</div>
+	</div>
+</div>

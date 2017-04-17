@@ -1,0 +1,101 @@
+@import "../mixins";
+@unit:75rem;
+@font-micro:'微软雅黑';
+.imgstyle{
+    display: block;
+    max-width: 100%;
+}
+.wb-bylusir-test{
+  .module-wrap {
+    background: #fd3a5e;
+  	.J_clothlist{
+        width:750/@unit - (15/@unit)*2;
+        overflow: hidden;
+        margin: 0 auto -14/@unit;
+
+        .J_clothlist_title{
+            width: 100%;
+            overflow: hidden;
+            
+            img{.imgstyle();}
+            
+        }
+
+        .J_clothlist_details{
+            width:100%;
+            overflow: hidden;
+
+            li{
+                float: left;
+                width: 353/@unit;
+                background: #fff;
+                margin: 0 14/@unit 14/@unit 0;
+                img{.imgstyle();}
+                
+                .cloth-pic{
+                    width: 100%;
+                }
+
+                .cloth-name{
+                    line-height: 28/@unit;
+                    height: 60/@unit;
+                    margin-top: 10/@unit;
+                    padding: 0 17/@unit;
+                    overflow: hidden;
+                    
+                    a{
+                        font-size: 24/@unit;
+                        color: #333;
+                        font-family: @font-micro;
+                    }
+                }
+
+                .cloth-price{
+                    padding: 0 17/@unit;
+                    overflow: hidden;
+
+                    .latest-price{
+                        float: left;
+                        color: #f0203f;
+                        font-weight: bold;
+                        font-size:26/@unit;
+                        margin-right: 20/@unit;
+                        font-family: @font-micro;
+
+                        em{
+                            font-size: 18/@unit;
+                            font-family: @font-micro;
+                        }
+                    }
+
+                    .old-price{
+                        float: left;
+                        color: #a1a1a1;
+                        font-size: 18/@unit;
+                        text-decoration: line-through;
+                        font-family: @font-micro;
+                        line-height: 36/@unit;
+                    }
+                }
+
+                .buy-btn{
+                    display: block;
+                    margin: 9/@unit auto;
+                    width: 319/@unit;
+                    height: 53/@unit;
+                    line-height: 50/@unit;
+                    text-align: center;
+                    color: #ee193c;
+                    font-size: 24/@unit;
+                    font-family: @font-micro;
+                    background:#ffd200 url(https://gw.alicdn.com/tps/TB1Ke.iKFXXXXXNXXXXXXXXXXXX-10-15.png) no-repeat 70% center;
+                }
+            }
+
+            li:nth-child(even){
+                margin-right: 0;
+            }
+        }
+    }
+  }
+}

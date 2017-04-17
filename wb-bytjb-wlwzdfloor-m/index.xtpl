@@ -1,0 +1,14 @@
+<div class="module-wrap J_tb_lazyload">
+	<script type="text/data" class="J_ModuleData">								{{{$env.JSON.stringify(this)}}}
+	</script>
+	<div class="by-page" style="background:{{moduleinfo.pagecolor}};">
+		{{#if(moduleinfo.title1_pic)}}<img src="{{moduleinfo.title1_pic}}" alt="" class="by_title1">{{/if}}
+		{{#if(moduleinfo.title2_pic)}}<img src="{{moduleinfo.title2_pic}}" alt="" class="by_title2">{{/if}}
+		<div class="by-msitems" style="background-color:{{moduleinfo.bgcolor}};">
+
+			<div class="itemlist-box show">
+				
+			</div>
+		</div>
+	</div>
+</div>

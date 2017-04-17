@@ -1,0 +1,27 @@
+{
+  "name": "bycpsPczhongchou",
+  "version": "0.0.1",
+  "author": "{李通}({WB080843})",
+  "type": "module",
+  "group": "tb",
+  "description": "description……",
+  "template": {
+    "type": "xtemplate",
+    "ext": ".xtpl",
+    "version": "~4.0.5"
+  },
+  "assets": {
+    "kissy": "^6.2.0",
+    "tb-global": "*",
+    "tb-init": "*"
+  },
+  "widths": [
+    "100%"
+  ],
+  "schema": {
+    "id": 12234,
+    "version": "c06ce8d1f6d16ea2e3b38c1dea329d53991ef8b3",
+    "url": "http://dip.alibaba-inc.com/pages/schemas/12234"
+  },
+  "screenshot": ""
+}

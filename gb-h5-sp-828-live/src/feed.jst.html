@@ -1,0 +1,67 @@
+<% $.each(videoList, function(k, s){ %>
+  <li class="panel-container">
+    <div class="left-panel">
+      <a href="//h5.m.taobao.com/global/buyer_index/index.html?userId=<%=s.hostUser%>">
+        <% if(s.userPic && !/gw\d{0,2}\./.test(s.userPic)) { %>
+        <img class="user-pic" src="<%=s.userPic%>_100x100.jpg">
+        <% } else if (s.userPic) { %>
+        <img class="user-pic J_lazyload" src="//gw.alicdn.com/tps/TB1cU_bLpXXXXa0XXXXXXXXXXXX-86-86.png" data-srcset="<%=s.userPic%>_50x50.jpg 1x,<%=s.userPic%>_100x100.jpg 2x" data-network="Q90,Q50S150">
+        <% } else { %>
+        <img class="user-pic" src="//gw.alicdn.com/tps/TB1cU_bLpXXXXa0XXXXXXXXXXXX-86-86.png">
+        <% } %>
+      </a>
+
+      <% if(s.attention === true || s.attention === 'true'){ %>
+        <span class="follow"></span>
+      <% }else{ %>
+        <span class="follow unfollow J_FOLLOW" data-id="<%=s.hostUser%>"></span>
+      <% } %>
+    </div>
+
+    <a href="<%=s.replayUrl || s.liveUrl || '//h5.m.taobao.com/taolive/video.html?id=' + s.hostUser%>">
+      <div class="right-panel">
+        <div class="detail">
+          <div class="tags">
+            <% if(s.status == '1'){ %>
+              <span class="status status-notify">预告</span>
+            <% }else if(s.status == '2'){ %>
+              <span class="status status-live">直播中</span>
+            <% }else if(s.status == '3'){ %>
+              <span class="status status-replay">回放</span>
+            <% } %>
+            <span class="country-info">
+              <span class="iconfont icon-dingwei"></span>
+              <span class="country"><%=s.country%></span>
+            </span>
+          </div>
+          <h3 class="title"><%=s.title%></h3>
+          <div class="info">
+            <span class="iconfont icon-bofang"></span>
+            <% if(s.status == '1'){ %>
+              <span class="info-content"><%=s.startTime%>开始</span>
+            <% }else if(s.status == '2'){ %>
+              <span class="info-content"><%=s.fansCount%>人正在观看</span>
+            <% }else if(s.status == '3'){ %>
+              <span class="info-content"><%=s.fansCount%>人看过</span>
+            <% } %>
+          </div>
+        </div>
+        <div class="pic-container">
+          <% if(s.status == '1'){ %>
+            <span class="btn-notify"></span>
+          <% }else if(s.status == '2' || s.status == '3'){ %>
+            <span class="btn-play"></span>
+          <% } %>
+
+          <% if(s.picUrl){ %>
+          <img class="pic J_lazyload" src="//img.alicdn.com/tps/TB1iFvcLpXXXXa5XXXXXXXXXXXX-244-244.png" data-srcset="<%=s.picUrl%>_180x180.jpg 1x,<%=s.picUrl%>_360x360.jpg 2x" data-network="Q90,Q50S150">
+          <% }else{ %>
+          <img class="pic" src="//img.alicdn.com/tps/TB1iFvcLpXXXXa5XXXXXXXXXXXX-244-244.png">
+          <% } %>
+        </div>
+      </div>
+    </a>
+
+    <span class="J_ScrollPin"></span>
+  </li>
+<% }) %>

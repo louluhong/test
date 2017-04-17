@@ -1,0 +1,11 @@
+<div class="module-wrap J_tb_lazyload"><script type="text/data" class="J_conf">{{{$env.JSON.stringify(this)}}}</script>
+    <div class="reward">
+        <div class="take"></div>
+        <div class="gold">
+            您拥有<span class="J_Num"></span>淘金币
+        </div>
+        <div class="roster"></div>
+        <div class="way"></div>
+    </div>
+
+</div>

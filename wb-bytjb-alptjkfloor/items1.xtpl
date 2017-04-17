@@ -1,0 +1,52 @@
+{{#each (data)}}
+	<li class="itemli  {{#if (xindex%3===2)}}last{{/if}}">
+		<a href="//item.taobao.com/item.htm?id={{itemid}}" target="_blank" class="fixfloat">
+			<div class="interest-templ">
+				{{#if (itemPhoto)}}
+				<img data-ks-lazyload="{{itemPhoto}}_320x320.jpg" title="{{title}}" class="itempic">
+				{{else}}
+				<img data-ks-lazyload="{{img}}_320x320.jpg" title="{{title}}" class="itempic">
+				{{/if}}
+				{{#if (shopLogo)}}
+				<img src="{{shopLogo}}_60x30.jpg" alt="" class="logo">
+				{{/if}}
+				<div class="wrap">
+					{{#if (point1)}}
+					<div class="interest-wrap">
+						<table border="0" cellpadding="0" cellspacing="0" width="100%">
+							<tr><td vlign="middle"><p class="interest line1">{{point1}}</p></td></tr>
+							<tr><td vlign="middle"><p class="interest line2">{{point2}}</p></td></tr>
+							<tr><td vlign="middle"><p class="interest main-interest line3">{{{point3}}}</p></td></tr>
+						</table>
+					</div>
+					{{/if}}
+					{{#if (isAndPay)}}
+					<i class="deduction"></i>
+					{{/if}}
+				</div>
+			</div>
+			<div class="item-des">
+				<p class="item-name"><span class="post-free">{{isPostFree}}</span>{{title}}</p>
+					   <span class="item-prc">
+
+					   <span class="item-sale"><em>{{howNum}}</em>人已买</span><br>
+						   <span class="xprice">
+					   <em class="Ameri">&yen;</em><strong>{{prc}}<span class="sprc">{{sprc}}</span></strong>
+						   </span>
+					   <del>&yen;{{prced}}</del>
+					   
+					   </span>
+
+				{{#if (dijia!=="0")}}
+
+				<span class="item-di"><p class="item-jbkd">金币可低</p><br>&yen;<strong>{{di}}</strong>{{dispc}}</span>
+				{{/if}}
+			</div>
+			<div class="zf_btn"><img src="//img.alicdn.com/tps/TB11jGyLpXXXXbNXpXXXXXXXXXX-113-44.png"></div>
+			{{#if (ysqq===0||ysqq==="0")}}
+				<div class="sold-out"></div>
+				<div class="zf_btn2"><img src="//img.alicdn.com/tps/TB1XCiRLpXXXXXgXXXXXXXXXXXX-113-49.png"></div>
+			{{/if}}
+		</a>
+	</li>
+{{/each}}

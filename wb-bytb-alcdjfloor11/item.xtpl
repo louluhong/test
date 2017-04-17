@@ -1,0 +1,5 @@
+{{@each (items)}}
+	<li class="con_li">
+		<a href="{{link}}" target="_blank">{{clbb}}</a>
+	</li>
+{{/each}} 

@@ -1,0 +1,11 @@
+{
+    "type":"tms",
+    "builder":"@ali/builder-tms",
+    "author": "{李通}({WB080843})",
+    "options": {
+        "packageName": "tb-mod"
+    },
+    "plugins":{
+
+    }
+}

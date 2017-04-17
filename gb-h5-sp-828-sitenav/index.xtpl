@@ -1,0 +1,3 @@
+<div class="module-wrap J_tb_lazyload">
+  <script type="text/data" class="data">{{{$env.JSON.stringify(this)}}}</script>
+</div>

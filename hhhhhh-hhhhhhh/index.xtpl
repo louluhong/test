@@ -1,0 +1,11 @@
+<div class="module-wrap J_tb_lazyload" style="background: #ffdc00;">
+	<textarea class="J_conf dataText" style="display:none;">{{$env.JSON.stringify(this)}}</textarea>
+	<div class="lay">
+		<ul class="shoplay">
+			
+		</ul>
+		<ul class="shoplay1">
+			
+		</ul>
+	</div>
+</div>

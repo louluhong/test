@@ -1,0 +1,199 @@
+﻿/**
+ * 图片的垂直居中，注意容器不能设置float，会破坏display的效果，有需要建议在外层增加一层div包裹
+ *
+ * 正常使用，将该方法设置给img的父元素即可:
+ *    div.pic-wrapper
+ *      img
+ * 若元素需要float:
+ *    div.float
+ *      div.pic-wrapper
+ *        img
+ * @param width
+ * @param height
+ */
+/**
+ * 兼容一个参数的写法，长宽相等
+ */
+.tjbwzd-test .module-wrap {
+  width: 100%;
+  font: 12px 'Microsoft Yahei';
+  overflow: hidden;
+  margin: 0 auto;
+  min-width: 990px;
+  position: relative;
+}
+.tjbwzd-test .module-wrap .clear {
+  zoom: 1;
+}
+.tjbwzd-test .module-wrap .clear:after {
+  content: '.';
+  display: block;
+  clear: both;
+  height: 0;
+  visibility: hidden;
+}
+.tjbwzd-test .module-wrap img {
+  display: block;
+  border: 0;
+  margin: 0 auto;
+}
+.tjbwzd-test .module-wrap a {
+  text-decoration: none;
+  outline: none;
+}
+.tjbwzd-test .module-wrap a:hover {
+  text-decoration: none;
+}
+.tjbwzd-test .module-wrap .al_page {
+  /*background: #fa4a5e;*/
+}
+.tjbwzd-test .module-wrap .al_page .by_w990 {
+  width: 990px;
+  margin: 0 auto;
+}
+.tjbwzd-test .module-wrap .al_page .by_w990 .tab_ul .tab_li {
+  float: left;
+  color: #fff;
+  width: 330px;
+  height: 50px;
+  background: #333;
+  font-size: 26px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 50px;
+  cursor: pointer;
+}
+.tjbwzd-test .module-wrap .al_page .by_w990 .tab_ul .tab_li.active {
+  color: #0b0900;
+  background: #ffee08;
+}
+.tjbwzd-test .module-wrap .al_page .by_w990 .tab_con {
+  background: #ffee08;
+  position: relative;
+}
+.tjbwzd-test .module-wrap .al_page .by_w990 .tab_con .tab_line,
+.tjbwzd-test .module-wrap .al_page .by_w990 .tab_con .tab_line1 {
+  width: 850px;
+  height: 5px;
+  background: #333333;
+  display: block;
+  position: absolute;
+  top: 30px;
+  left: 70px;
+  z-index: 1;
+}
+.tjbwzd-test .module-wrap .al_page .by_w990 .tab_con .tab_line1 {
+  background: #ff1933;
+}
+.tjbwzd-test .module-wrap .al_page .by_w990 .tab_con .tabtime_ul {
+  width: 851px;
+  margin: 0 auto;
+  padding-top: 14px;
+  position: relative;
+  z-index: 2;
+  height: 53px;
+}
+.tjbwzd-test .module-wrap .al_page .by_w990 .tab_con .tabtime_ul .tabtime_li {
+  float: left;
+  margin-right: 149px;
+  cursor: pointer;
+}
+.tjbwzd-test .module-wrap .al_page .by_w990 .tab_con .tabtime_ul .tabtime_li .tab_time {
+  background: url('https://gw.alicdn.com/tps/TB1EFSoLFXXXXclXVXXXXXXXXXX-101-88.png') no-repeat 0 0;
+  color: #333;
+  width: 101px;
+  height: 44px;
+  display: block;
+  font-size: 22px;
+  text-align: center;
+  line-height: 34px;
+}
+.tjbwzd-test .module-wrap .al_page .by_w990 .tab_con .tabtime_ul .tabtime_li .tab_time.time_active {
+  background-position: 0 -45px;
+  color: #ffee08;
+}
+.tjbwzd-test .module-wrap .al_page .by_w990 .tab_con .tabcon_ul {
+  background: #fa4a5e;
+  height: 390px;
+  overflow: hidden;
+}
+.tjbwzd-test .module-wrap .al_page .by_w990 .tab_con .tabcon_ul .tabcon_li {
+  width: 325px;
+  float: left;
+  background: #fff;
+  position: relative;
+  padding-bottom: 10px;
+  margin-bottom: 80px;
+}
+.tjbwzd-test .module-wrap .al_page .by_w990 .tab_con .tabcon_ul .tabcon_li .sp_img {
+  width: 325px;
+  height: 245px;
+}
+.tjbwzd-test .module-wrap .al_page .by_w990 .tab_con .tabcon_ul .tabcon_li .sp_ydw {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.tjbwzd-test .module-wrap .al_page .by_w990 .tab_con .tabcon_ul .tabcon_li .sp_title {
+  color: #555555;
+  font-size: 16px;
+  margin-left: 10px;
+  width: 305px;
+  overflow: hidden;
+  height: 20px;
+}
+.tjbwzd-test .module-wrap .al_page .by_w990 .tab_con .tabcon_ul .tabcon_li .sp_stock {
+  background: url('https://gw.alicdn.com/tps/TB1iLKrLFXXXXa.XVXXXXXXXXXX-107-26.png') repeat-x left top;
+  height: 26px;
+  line-height: 26px;
+  padding: 0 13px;
+  color: #fff;
+  font-size: 16px;
+  display: inline-block;
+  position: absolute;
+  right: 0;
+  top: 219px;
+}
+.tjbwzd-test .module-wrap .al_page .by_w990 .tab_con .tabcon_ul .tabcon_li .wzd_price,
+.tjbwzd-test .module-wrap .al_page .by_w990 .tab_con .tabcon_ul .tabcon_li .pt_price {
+  color: #fa4a5e;
+  font-size: 28px;
+  font-weight: bold;
+  margin: 5px 0 10px 10px;
+}
+.tjbwzd-test .module-wrap .al_page .by_w990 .tab_con .tabcon_ul .tabcon_li .wzd_price em,
+.tjbwzd-test .module-wrap .al_page .by_w990 .tab_con .tabcon_ul .tabcon_li .pt_price em {
+  font-size: 18px;
+  font-style: normal;
+}
+.tjbwzd-test .module-wrap .al_page .by_w990 .tab_con .tabcon_ul .tabcon_li .wzd_price i,
+.tjbwzd-test .module-wrap .al_page .by_w990 .tab_con .tabcon_ul .tabcon_li .pt_price i {
+  font-size: 16px;
+  font-style: normal;
+}
+.tjbwzd-test .module-wrap .al_page .by_w990 .tab_con .tabcon_ul .tabcon_li .pt_price i {
+  color: #666;
+  background: url('https://gw.alicdn.com/tps/TB1mEafLFXXXXcRaXXXXXXXXXXX-18-20.png') no-repeat left center;
+  padding-left: 20px;
+  font-size: 15px;
+}
+.tjbwzd-test .module-wrap .al_page .by_w990 .tab_con .tabcon_ul .tabcon_li .pt_price b {
+  color: #fa4a5e;
+  font-weight: normal;
+}
+.tjbwzd-test .module-wrap .al_page .by_w990 .tab_con .tabcon_ul .tabcon_li .btn_before,
+.tjbwzd-test .module-wrap .al_page .by_w990 .tab_con .tabcon_ul .tabcon_li .btn_start,
+.tjbwzd-test .module-wrap .al_page .by_w990 .tab_con .tabcon_ul .tabcon_li .btn_look {
+  color: #fff;
+  font-size: 22px;
+  display: block;
+  width: 305px;
+  height: 45px;
+  background: #fa4a5e;
+  margin: 0 auto;
+  line-height: 45px;
+  text-align: center;
+}
+.tjbwzd-test .module-wrap .al_page .by_w990 .tab_con .tabcon_ul .tabcon_li .btn_before {
+  background: #00c5b9;
+}

@@ -1,0 +1,59 @@
+﻿/**
+ * 图片的垂直居中，注意容器不能设置float，会破坏display的效果，有需要建议在外层增加一层div包裹
+ *
+ * 正常使用，将该方法设置给img的父元素即可:
+ *    div.pic-wrapper
+ *      img
+ * 若元素需要float:
+ *    div.float
+ *      div.pic-wrapper
+ *        img
+ * @param width
+ * @param height
+ */
+/**
+ * 兼容一个参数的写法，长宽相等
+ */
+.wb-bytb-aljyhzxbottom .module-wrap {
+  width: 100%;
+  font: 12px 'Microsoft Yahei';
+  overflow: hidden;
+  margin: 0 auto;
+  min-width: 990px;
+  position: relative;
+}
+.wb-bytb-aljyhzxbottom .module-wrap .clear {
+  zoom: 1;
+}
+.wb-bytb-aljyhzxbottom .module-wrap .clear:after {
+  content: '.';
+  display: block;
+  clear: both;
+  height: 0;
+  visibility: hidden;
+}
+.wb-bytb-aljyhzxbottom .module-wrap img {
+  display: block;
+  border: 0;
+  margin: 0 auto;
+}
+.wb-bytb-aljyhzxbottom .module-wrap a {
+  text-decoration: none;
+  outline: none;
+}
+.wb-bytb-aljyhzxbottom .module-wrap a:hover {
+  text-decoration: none;
+}
+.wb-bytb-aljyhzxbottom .module-wrap .by_w990 {
+  width: 990px;
+  margin: 0 auto;
+}
+.wb-bytb-aljyhzxbottom .module-wrap .by_w990 .bottom_btn {
+  background: url('about:blank');
+  width: 206px;
+  height: 57px;
+  display: block;
+  position: absolute;
+  left: 403px;
+  top: 258px;
+}

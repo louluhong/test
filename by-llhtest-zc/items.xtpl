@@ -1,0 +1,41 @@
+<li>
+    <a href="{{linkurl}}" target="_blank">
+
+        <div class="pro_left">
+            <!--图片-->
+                <img class="ys_img" src="{{result.image}}">
+            <!--左下标-->
+            <p class="ys_status">{{result.status}}</p>
+        </div>
+
+        <div class="pro_right">
+            <!--标题-->
+            <p class="ys_title">{{result.name}}</p>
+            <!--百分比-->
+            <div class="list_ck">
+                <div class="list_percent">
+                    <span style="width:{{pers}}"></span>
+                </div>
+            </div>
+            <!--数据-->
+            <div class="list_data">
+                <table width="100%" cellspacing="0" cellpadding="0">
+                    <tbody>
+                    <tr>
+                        <th width="25%" align="left" class="list_per">{{pers}}</th>
+                        <th align="center" class="list_ysje">￥{{result.curr_money}}</th>
+                        <th align="right" width="25%" class="list_num">{{result.buy_amount}}人</th>
+                    </tr>
+                    <tr>
+                        <td align="right">达成率</td>
+                        <td align="left">已筹金额</td>
+                        <td align="center">支持人数</td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+            <!--查看项目-->
+            <div class="list_btn"></div>
+        </div>
+    </a>
+</li>

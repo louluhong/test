@@ -1,0 +1,29 @@
+{
+  "name": "gb-h5-sp-828-sitenav",
+  "version": "0.0.1",
+  "author": "化辰",
+  "type": "module",
+  "group": "tb",
+  "description": "全球购828活动，顶部导航",
+  "template": {
+    "type": "xtemplate",
+    "ext": ".xtpl",
+    "version": "~4.0.5"
+  },
+  "assets": {
+    "kimi": "0.0.233",
+    "tb-init-kimi": "*",
+    "m-base": "*",
+    "hairlines": "*"
+  },
+  "widths": [
+    "100%"
+  ],
+  "schema": {
+    "id": 36421,
+    "version": "9ddb9f2826e833978279c3f0e01b5863a5b55081",
+    "url": "http://dip.alibaba-inc.com/pages/schemas/36421"
+  },
+  "screenshot": "",
+  "modify_time": "2016-8-28 13:53:09"
+}

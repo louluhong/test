@@ -1,0 +1,32 @@
+{{@each (item1)}}
+<li class="sp_li">
+    <img src="http://gtms04.alicdn.com/tps/i4/TB1DmGeKXXXXXa3XVXXDIAS7FXX-336-337.jpg" alt="" class="sp_img">
+    <span class="mx_name">{{item_name}}</span>
+</li>
+<li class="sp_li ">
+    <a href="##" target="_blank">
+        <div class="pro_img">
+            <img src="{{item_pic}}" class="sp_img">
+            <div class="sp_kuang">
+                <span class="sp_title">{{item_title}}</span>
+                <span class="sp_zkl">{{item_discount}}%OFF</span>
+            </div>
+        </div>
+        <span class="new_price">￥{{item_current_price}}</span>
+        <span class="sp_btn"></span>
+    </a>
+</li>
+<li class="sp_li " style="margin-right: 0">
+    <a href="##" target="_blank">
+        <div class="pro_img">
+            <img src="{{item_pic}}" class="sp_img">
+            <div class="sp_kuang">
+                <span class="sp_title">2015秋冬新款XXX同款同款同款</span>
+                <span class="sp_zkl">50%OFF</span>
+            </div>
+        </div>
+        <span class="new_price">￥99.99</span>
+        <span class="sp_btn"></span>
+    </a>
+</li>
+{{/each}}

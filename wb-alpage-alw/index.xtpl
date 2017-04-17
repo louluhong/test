@@ -1,0 +1,186 @@
+<div class="module-wrap J_tb_lazyload">
+	<div class="by_floor2" style="background: #354497;">
+		<div class="by_w1190">
+			<div class="title_w1190">
+				<span class="floor2_title">Our History</span>
+			</div>
+			<div class="floor2_con">
+				<table class="con_ul">
+					<tr class="con_right">
+						<td class="con_li" width="523">
+						</td>
+						<td class="con_li">
+							<span class="con_year" style="margin-top: 61px;">September 10th, 2009 </span>
+						</td>
+					</tr>
+					<tr class="con_right">
+						<td class="con_li" width="523">
+						</td>
+						<td class="con_li">
+							<span class="con_cont">Aliyun.com Inc formally incorporated.</span>
+						</td>
+					</tr>
+					<tr class="con_left">
+						<td class="con_li" width="523">
+							<span class="con_year">September 10th, 2009 </span>
+						</td>
+						<td class="con_li">
+							
+						</td>
+					</tr>
+					<tr class="con_left">
+						<td class="con_li" width="523">
+							<span class="con_cont">Tmall officially launched Jushita, an integrated ecommerce platform built on top of Alibaba Cloud’s cloud services for 3rd party merchants. It successfully handled 20% of Taobao and Tmall transactions during the Double 11 shopping festival.</span>
+						</td>
+						<td class="con_li">
+							
+						</td>
+					</tr>
+					<tr class="con_right">
+						<td class="con_li" width="523">
+						</td>
+						<td class="con_li">
+							<span class="con_year">July 8th, 2011 </span>
+						</td>
+					</tr>
+					<tr class="con_right">
+						<td class="con_li" width="523">
+						</td>
+						<td class="con_li">
+							<span class="con_cont">Aliyun.com web site formally launched its first cloud service: Elastic Computing Service.</span>
+						</td>
+					</tr>
+					<tr class="con_left">
+						<td class="con_li" width="523">
+							<span class="con_year">September 10th, 2009 </span>
+						</td>
+						<td class="con_li">
+							
+						</td>
+					</tr>
+					<tr class="con_left">
+						<td class="con_li" width="523">
+							<span class="con_cont">Tmall officially launched Jushita, an integrated ecommerce platform built on top of Alibaba Cloud’s cloud services for 3rd party merchants. It successfully handled 20% of Taobao and Tmall transactions during the Double 11 shopping festival.</span>
+						</td>
+						<td class="con_li">
+							
+						</td>
+					</tr>
+				</table>
+			</div>
+			<a href="##" target="" class="floor2_btn">
+				<img src="https://gw.alicdn.com/tps/TB1BJVXJFXXXXcDXpXXXXXXXXXX-240-56.png" alt="">
+			</a>
+		</div>
+	</div>
+	<div class="by_floor3" style="background: #f0f5f9;">
+		<div class="by_w1190 clear">
+			<div class="con_left">
+				<span class="left_title">Our Technologies</span>
+				<span class="left_con">Our cloud computing platform, called Apsara, is a general purpose distributed computing platform built with proprietary technology that enables server clusters to perform with enhanced computing power. Apsara offers a comprehensive suite of cloud services including elastic computing, storage and database services, networking, security management, and large-scale data processing. A single Apsara cluster can be scaled up to 10,000 servers with hundreds of PetaByte storage capacity and hundreds of thousands of CPU cores.</span>
+			</div>
+			<div class="con_right">
+				<img src="https://gw.alicdn.com/tps/TB1bW4nJFXXXXbWXXXXXXXXXXXX-253-211.png" alt="" class="right_img">
+				<ul class="right_ul">
+					<li class="right_li">
+						<img src="https://gw.alicdn.com/tps/TB1U0U8JpXXXXbgXFXXXXXXXXXX-7-6.png" alt="" width="7" height="6">
+						<span class="li_font">A complete suite of public cloud computing services with Web-based API</span>
+					</li>
+					<li class="right_li">
+						<img src="https://gw.alicdn.com/tps/TB1U0U8JpXXXXbgXFXXXXXXXXXX-7-6.png" alt="" width="7" height="6">
+						<span class="li_font">More than 99.95% service availability with less than one minute recovery time from a single-node failure</span>
+					</li>
+					<li class="right_li">
+						<img src="https://gw.alicdn.com/tps/TB1U0U8JpXXXXbgXFXXXXXXXXXX-7-6.png" alt="" width="7" height="6">
+						<span class="li_font">A complete suite of public cloud computing services with Web-based API</span>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div class="by_floor4" style="background: #354497;">
+		<div class="by_w1190">
+			<div class="floor4_top">
+				<span class="floor4_title">Our People </span>
+				<span class="floor4_con">At Alibaba Cloud, we value our talented employees more than anything else. We strive to foster an open and transparent atmosphere within our organization where every team member has opportunities to develop their potential and everyone’s views are valued. We welcome individuals who share our spirit of entrepreneurship and innovation to join us.</span>
+				<img src="https://gw.alicdn.com/tps/TB1PbAVJpXXXXbraXXXXXXXXXXX-270-271.png" alt="" class="peo_head">
+			</div>
+			<div class="floor4_bottom clear">
+				<div class="floor4_left">
+					<span class="left_name">唐洪</span>
+					<span class="left_pyname">Hong Tang</span>
+					<span class="left_zw">(Chief Architect, Alibaba Cloud Computing)</span>
+				</div>
+				<div class="floor4_right">
+					<ul class="right_ul">
+						<li class="right_li">
+							<span class="right_w">Who am I?</span>
+							<span class="right_d">I joined Alibaba in 2010 and was part of the core team in the development of the Apsara cloud platform, the infrastructural foundation for Alibaba Cloud. Prior to Alibaba, I was Director of Search System Infrastructure at Ask.com and Senior Principal Engineer at Yahoo’s Cloud Computing team. 
+I guess I am lucky to have the opportunity to work in the broad area of distributed and parallel systems for almost twenty years. My interests expand across many areas, including: high-performance computing and parallel systems, cluster-based distributed computing and storage systems, large-scale Internet services, and cloud computing. I was elected as an Innovative Talent in the national Recruitment Program of Global Experts in 2014 (aka National Thousand Talent Plan).</span>
+						</li>
+						<li class="right_li" style="margin-bottom: 0">
+							<span class="right_w">Who am I?</span>
+							<span class="right_d">I joined Alibaba in 2010 and was part of the core team in the development of the Apsara cloud platform, the infrastructural foundation for Alibaba Cloud. Prior to Alibaba, I was Director of Search System Infrastructure at Ask.com and Senior Principal Engineer at Yahoo’s Cloud Computing team. 
+I guess I am lucky to have the opportunity to work in the broad area of distributed and parallel systems for almost twenty years. My interests expand across many areas, including: high-performance computing and parallel systems, cluster-based distributed computing and storage systems, large-scale Internet services, and cloud computing. I was elected as an Innovative Talent in the national Recruitment Program of Global Experts in 2014 (aka National Thousand Talent Plan).</span>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="by_floor5" style="background: #f0f5f9;">
+		<div class="by_w1190">
+			<span class="floor5_title">Our Job Openings</span>
+			<div class="floor5_con">
+				<ul class="btn_ul">
+					<li class="btn_li">
+						<div class="by_btn">
+							<a href="javascript:void(0);">
+								<span class="btn_name">Network Virtualization R&D Engineer</span>
+							</a>
+							<a href="##" target="_blank" class="btn_btn">
+								<img src="https://gw.alicdn.com/tps/TB14G0dJFXXXXb_XpXXXXXXXXXX-100-36.png" alt="">
+							</a>
+						</div>
+						<!-- 展开 -->
+						<div class="btncon">
+							<!-- 责任 -->
+							<div class="zr">
+								<span class="btncon_zr">Responsibilities</span>
+								<span class="btncon_zrcon">Responsible for building cloud-scale storage services including Object Storage, Block Storage, File Storage, Big-data Analytic Storage, and Structured Table Storage.</span>
+							</div>
+							<!-- 资格 -->
+							<div class="zg">
+								<span class="btncon_zg">Qualifications</span>
+								<span class="btncon_zgcon">BS/MS in Computer Science or equivalent practical experience.</span>
+							</div>
+						</div>
+					</li>
+					<li class="btn_li">
+						<div class="by_btn">
+							<a href="javascript:void(0);">
+								<span class="btn_name">Network Virtualization R&D Engineer</span>
+							</a>
+							<a href="##" target="_blank" class="btn_btn">
+								<img src="https://gw.alicdn.com/tps/TB14G0dJFXXXXb_XpXXXXXXXXXX-100-36.png" alt="">
+							</a>
+						</div>
+						<!-- 展开 -->
+						<div class="btncon">
+							<!-- 责任 -->
+							<div class="zr">
+								<span class="btncon_zr">Responsibilities</span>
+								<span class="btncon_zrcon">Responsible for building cloud-scale storage services including Object Storage, Block Storage, File Storage, Big-data Analytic Storage, and Structured Table Storage.</span>
+							</div>
+							<!-- 资格 -->
+							<div class="zg">
+								<span class="btncon_zg">Qualifications</span>
+								<span class="btncon_zgcon">BS/MS in Computer Science or equivalent practical experience.</span>
+							</div>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</div>

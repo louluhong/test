@@ -1,0 +1,5 @@
+{{#each (data)}}
+	<li class="itemli">
+		{{zheli}}
+	</li>
+{{/each}}

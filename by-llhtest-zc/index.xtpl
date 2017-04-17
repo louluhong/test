@@ -1,0 +1,14 @@
+<div class="module-wrap J_tb_lazyload">
+    <textarea class="J_conf dataText" style="display:none;">{{$env.JSON.stringify(this)}}</textarea>
+	<!-- 小坑 -->
+    <div class="by_floor3">
+        <div class="by_w1190">
+            <div class="floor3_con">
+                <div class="pro_list">
+                   <!--众筹-->
+                   <ul class="ys_displayM" data-ids=""></ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

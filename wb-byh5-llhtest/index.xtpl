@@ -1,0 +1,16 @@
+<div class="module-wrap J_tb_lazyload">
+	<script type="text/data" class="J_ModuleData">								{{{$env.JSON.stringify(this)}}}
+	</script>
+	<div class="al_page">
+		<div class="by_banner">
+			<img src="http://gtms02.alicdn.com/tps/i2/TB1f0GXKFXXXXXqXXXXO.Dh2pXX-750-185.jpg" alt="">
+			<img src="http://gtms03.alicdn.com/tps/i3/TB117X.KFXXXXXKXXXXO.Dh2pXX-750-185.jpg" alt="">
+			<img src="http://gtms03.alicdn.com/tps/i3/TB1njN5KFXXXXcXXXXX27brWXXX-101-134.png" alt="" class="share">
+		</div>
+		<div class="by_con">
+			<div class="by_w700">
+				
+			</div>
+		</div>
+	</div>
+</div>

@@ -1,0 +1,12 @@
+<div class="module-wrap J_tb_lazyload">
+	<script type="text/data" class="J_ModuleData">			
+	{{{$env.JSON.stringify(this)}}}
+	</script>
+	<div class="by_con" style="background: {{moduleinfo.bg_color}};">
+		<img data-src="{{moduleinfo.con_title}}" alt="" class="J_LazyLoad">
+		<div class="by_w710">
+			<ul class="con_ul clear">
+			</ul>
+		</div>
+	</div>
+</div>

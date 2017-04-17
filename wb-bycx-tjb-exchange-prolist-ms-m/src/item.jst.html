@@ -1,0 +1,31 @@
+<%$.each(displayItems,function(k,v){%>
+    <li class="item-box item_<%=v.itemId%> item-<%=v.status%> <%if(moduleinfo.itemstyle){%>item-large<%}%>" data-id="<%=v.itemId%>" data-url="<%=v.itemUrl%>" data-showsqlink="<%=v.showsqlink%>">
+        <a href="//item.taobao.com/item.htm?id=<%=v.itemId%>" target="_blank">
+            <div class="img-box">
+                <img class="J_LazyLoad" alt="" data-src="<%=v.pic%>_240x240.jpg">
+                <p class="item-soldout">已秒光</p>
+                <p class="item-xl">
+                    限量<span><%=v.xianliang||0%></span>件
+                </p>            </div>
+            <div class="item-info">
+                <p class="item-title">
+                    <%=v.itemName%>
+                </p>
+                <div class="item-prline">
+                    <span class="item-cprice">￥<%=v.itemprice%></span>
+                    
+                </div>
+                <p class="item-yprice">￥
+                    <%=v.originPrice%>
+                </p>
+                
+                <p class="item-btn">
+                    <span class="btn-before">抢先看看</span>
+                    <span class="btn-before2"><%=v.startdate%><%=v.starthour%></span>
+                    <span class="btn-doing">立即秒杀</span>
+                    <span class="btn-after">再去看看</span>
+                </p>
+            </div>
+        </a>
+    </li>
+    <%})%>

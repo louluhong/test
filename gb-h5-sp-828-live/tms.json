@@ -1,0 +1,29 @@
+{
+  "name": "gb-h5-sp-828-live",
+  "version": "0.0.1",
+  "author": "化辰",
+  "type": "module",
+  "group": "tb",
+  "description": "828大促，直播模块",
+  "template": {
+    "type": "xtemplate",
+    "ext": ".xtpl",
+    "version": "~4.0.5"
+  },
+  "assets": {
+    "kimi": "0.0.233",
+    "tb-init-kimi": "*",
+    "m-base": "*",
+    "hairlines": "*"
+  },
+  "widths": [
+    "100%"
+  ],
+  "schema": {
+    "id": 34580,
+    "version": "e44ff1a5ebfd9779284c2fe9f5f31371a35c1ab4",
+    "url": "http://dip.alibaba-inc.com/pages/schemas/34580"
+  },
+  "screenshot": "",
+  "modify_time": "2016-8-28 13:52:49"
+}

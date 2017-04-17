@@ -1,0 +1,29 @@
+{
+  "name": "wb-bytjb-wlwzdfloor-m",
+  "version": "0.0.1",
+  "author": "{娄露红}({WB085725})",
+  "type": "module",
+  "group": "tb",
+  "description": "description……",
+  "template": {
+    "type": "xtemplate",
+    "ext": ".xtpl",
+    "version": "~4.0.5"
+  },
+  "assets": {
+    "kimi": "0.0.233",
+    "tb-init-kimi": "*",
+    "m-base": "*",
+    "hairlines": "*"
+  },
+  "widths": [
+    "100%"
+  ],
+  "schema": {
+    "id": 21611,
+    "version": "",
+    "url": "http://dip.alibaba-inc.com/pages/schemas/21611"
+  },
+  "screenshot": "",
+  "modify_time": "2016-3-29 22:41:24"
+}

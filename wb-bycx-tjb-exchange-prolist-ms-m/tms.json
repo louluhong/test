@@ -1,0 +1,28 @@
+{
+  "name": "wb-bycx-tjb-exchange-prolist-ms-m",
+  "version": "0.0.1",
+  "author": "{徐伟萍}({WB033476})",
+  "type": "module",
+  "group": "tb",
+  "description": "花金币兑惊喜秒杀商品模块（一行一个或者二个）（无线）",
+  "template": {
+    "type": "xtemplate",
+    "ext": ".xtpl",
+    "version": "~4.0.5"
+  },
+  "assets": {
+    "kimi": "0.0.233",
+    "tb-init-kimi": "*",
+    "m-base": "*",
+    "hairlines": "*"
+  },
+  "widths": [
+    "100%"
+  ],
+  "schema": {
+    "id": 25040,
+    "version": "107cab68e399c37e8294bdea608196e53cd4fd73",
+    "url": "http://dip.alibaba-inc.com/pages/schemas/25040"
+  },
+  "screenshot": "https://gw.alicdn.com/tps/TB14JunJFXXXXaJXFXXXXXXXXXX-754-246.png"
+}
